@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  jekyll:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+    ports:
+      - "4000:4000"
+    environment:
+      - JEKYLL_ENV=development
+    command: jekyll serve --host 0.0.0.0 --incremental

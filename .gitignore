@@ -1,0 +1,36 @@
+# Jekyll build output
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Ruby/Bundler files
+Gemfile.lock
+vendor/
+.bundle/
+
+# Docker files
+*.log
+docker-compose.override.yml
+
+# Editor and IDE files
+.vscode/
+
+# System files
+.DS_Store
+
+# Sensitive files
+.env
+*.secret
+*.key
+*.pem
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Node.js (if used for Jekyll plugins)
+node_modules/
+package-lock.json
