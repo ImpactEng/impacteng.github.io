@@ -11,6 +11,17 @@ docker-compose up --build
 docker-compose exec jekyll jekyll new .
 ```
 
+ **Rebuild Without Cache**:
+
+If the build is corrupted, rebuild without cache:
+
+```shell
+docker-compose down --remove-orphans
+docker rmi $(docker images -q jekyll) 2>/dev/null
+docker-compose build --no-cache
+docker-compose up --build
+```
+
 ## Security Features
 
 * Slim Base Image: Uses `ruby:3.3-slim` to minimize the attack surface.
