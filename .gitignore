@@ -1,8 +1,8 @@
-# Jekyll build output
-_site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
+# Jekyll build artifacts
+sitefiles/_site/
+sitefiles/.jekyll-cache/
+sitefiles/.sass-cache/
+sitefiles/.jekyll-metadata
 
 # Ruby/Bundler files
 Gemfile.lock
@@ -16,21 +16,22 @@ docker-compose.override.yml
 # Editor and IDE files
 .vscode/
 
-# System files
-.DS_Store
-
 # Sensitive files
 .env
 *.secret
 *.key
 *.pem
-
-# Temporary files
-*.tmp
-*.bak
-*.swp
-*~
+secrets/
 
 # Node.js (if used for Jekyll plugins)
 node_modules/
 package-lock.json
+
+# Local environment
+*.tmp
+*.bak
+*.swp
+*~
+.env
+tmp/
+.DS_Store
