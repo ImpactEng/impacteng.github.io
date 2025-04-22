@@ -9,4 +9,13 @@ services:
       - "4000:4000"
     environment:
       - JEKYLL_ENV=development
-    user: "1000:1000" # Match the non-root user UID/GID
+    command: >
+      bundle exec jekyll serve --source sitefiles --destination sitefiles/_site --host 0.0.0.0 --port 4000 --livereload
+    develop:
+      watch:
+        - action: sync
+          path: ./sitefiles
+          target: /app/sitefiles
+          ignore:
+            - sitefiles/_site/
+            - sitefiles/.jekyll-cache/
