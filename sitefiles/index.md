@@ -19,6 +19,8 @@ Stay tuned as we craft this space to reflect our values and capabilities.
 
 Got questions or want to chat before our launch?
 
+[Email Us](mailto:hi@impacteng.com.au)
+
 <ul>
   {% if site.social.email %}
     <li><a href="mailto:{{ site.social.email }}">Email Us</a></li>
