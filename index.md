@@ -1,40 +1,36 @@
 ---
-layout: page
-title: ""
-permalink: /
-#hide_title: true
+layout: default
+title: Home
 ---
 
-# About Us
+# Unlock the Cloud Engineering potential
 
-Welcome — we're currently building something exciting behind the scenes!
+We combine our **Cloud** expertise, **DevOps** principles, **Lean** methodology, and **Agile** framework to deliver meaningful outcomes.
 
-At the heart of what we do is a commitment to do **impactful engineering**. We help businesses unlock value through modern ways of working, combining our **Cloud expertise, DevOps, Lean, and Agile** to deliver solutions that scale.
+At the heart of what we do is a commitment to do impactful engineering.
 
-Our mission is to drive **tactical wins** today while laying the groundwork for **sustainable, long-term success**. We’re passionate about improving the experience for **developers, operations, and customers** alike.
+# How we help
 
-Stay tuned as we craft this space to reflect our values and capabilities.
+We will work closely with you to understand and validate challenges and create a remediation plan.
+    
+We focus on driving tactical wins today while laying the groundwork for sustainable, long-term success.
 
-# Get in Touch
+## Option 1: We assess and propose
 
-Got questions or want to chat before our launch?
+We analyse your environment to understand your unique challenges and identify top areas for a fast but long-lasting impact.
 
-[Email Us](mailto:hi@impacteng.com.au)
+Examples:
+- Evaluate and align the team's purpose and identity with the business.
+- Define a strategy and a roadmap to execute it.
 
-<ul>
-  {% if site.social.email %}
-    <li><a href="mailto:{{ site.social.email }}">Email Us</a></li>
-  {% endif %}
-  {% if site.social.github %}
-    <li><a href="{{ site.social.github }}" target="_blank">GitHub</a></li>
-  {% endif %}
-  {% if site.social.linkedin %}
-    <li><a href="{{ site.social.linkedin }}" target="_blank">LinkedIn</a></li>
-  {% endif %}
-  {% if site.social.twitter %}
-    <li><a href="{{ site.social.twitter }}" target="_blank">Twitter</a></li>
-  {% endif %}
-</ul>
----
+## Option 2: You direct us
 
-*Thanks for stopping by. More coming soon.*
+You tell us your top challenges, the outcomes you need, and the why behind them.
+
+Examples:
+- We see failures in our processes and technology, and our people are burnt out.
+- Our systems and processes are not automated enough, resulting in slower and unreliable deployments.
+
+# About Impact Eng
+
+Our mission is to empower your business by unlocking the full potential of your Cloud Engineering function.
