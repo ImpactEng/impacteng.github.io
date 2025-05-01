@@ -1,13 +1,15 @@
 ---
-layout: page
+layout: default
 title: Contact Us
 description: Get in touch with Impact Eng.
 ---
 
-We'd love to hear from you!<br>
+We'd love to hear from you!
+
 Whether you have questions about our services or want to discuss how we can help your business, please reach out.
 
-**Email:** [contact@impacteng.com.au](mailto:contact@impacteng.com.au)
+**Email:** [{{ site.email }}](mailto:{{ site.email }})
+
 
 You can also use the form below to send us a message:
 

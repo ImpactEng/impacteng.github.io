@@ -15,7 +15,7 @@
             <!--  {{ site.title | escape }}  -->
             {%- endif -%}
             </li>
-            {%- if site.email -%}
+            {%- if site.email and page.title != "Contact Us" -%}
             <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
             {%- endif -%}
         </ul>
