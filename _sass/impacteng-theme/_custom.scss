@@ -1,0 +1,94 @@
+.default-page {
+
+    h1,
+    h2 {
+        color: #2c3e50;
+    }
+
+    .lead {
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+    }
+
+    .page-section {
+        margin: 2rem 0;
+        background: #fff;
+        padding: 2rem;
+        border-radius: 8px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    }
+
+    .section-list {
+        list-style: none;
+        padding-left: 0;
+
+        li {
+            margin-bottom: 1rem;
+        }
+    }
+
+    .contact-cta {
+        text-align: center;
+        margin-top: 4rem;
+        padding: 2rem;
+        background: #eaf4fc;
+        border-radius: 8px;
+    }
+
+    .button-primary {
+        display: inline-block;
+        background-color: #007acc;
+        color: #fff;
+        padding: 0.75rem 1.5rem;
+        text-decoration: none;
+        border-radius: 5px;
+
+        &:hover {
+            background-color: #005fa3;
+        }
+    }
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-fade-in {
+    animation: fadeIn 1s ease forwards;
+    opacity: 0;
+}
+
+.animate-slide-up {
+    animation: slideUp 1s ease forwards;
+    opacity: 0;
+}
+
+.delay-1 {
+    animation-delay: 0.3s;
+}
+
+.delay-2 {
+    animation-delay: 0.6s;
+}
+
