@@ -1,36 +1,45 @@
 ---
 layout: default
 title: Our Services
-description: Discover how Impact Eng can help your business with the Cloud, DevOps, Lean, and Agile.
+permalink: /services/
+description: Discover how Impact Eng helps businesses unlock Cloud value through DevOps, Lean, and Agile excellence.
 ---
 
-# How we help
+<section class="default-page">
+  <header class="hero animate-fade-in">
+    <h1>How We Help</h1>
+    <p class="lead">We help businesses unlock value and achieve sustainable growth by transforming their Cloud Engineering capabilities through modern, people-centric ways of working.</p>
+  </header>
 
-We offer services designed to help your business unlock value and achieve sustainable growth through modern ways of working.
+  <section class="page-section animate-slide-up">
+    <h2><i class="fas fa-lightbulb"></i> Strategic Assessment & Enablement</h2>
+    <p>We partner with your team to assess your current state and define a clear path forward.</p>
+    <ul class="section-list">
+      <li><strong>Purpose & Identity:</strong> Define Cloud Engineering's principles, charter, and team visibility.</li>
+      <li><strong>Operating Model:</strong> Establish a scalable strategy and transformation roadmap.</li>
+      <li><strong>Delivery Process:</strong> Optimize Agile and DevOps practices with continuous improvement.</li>
+      <li><strong>Tooling Audit:</strong> Identify gaps in security, operations, and cost (licenses, infra).</li>
+      <li><strong>Developer Experience:</strong> Standardize SDLC tools: SCM, CI/CD, code quality, artifacts.</li>
+      <li><strong>Cloud Costing:</strong> Analyze and reduce total cost of cloud ownership (TCO).</li>
+      <li><strong>Tech Consolidation:</strong> Eliminate redundancies and streamline the tech stack.</li>
+      <li><strong>Risk Management:</strong> Build a risk register and actionable mitigation plan.</li>
+    </ul>
+  </section>
 
-## Option 1: We assess and propose
+  <section class="page-section animate-slide-up delay-1">
+    <h2><i class="fas fa-rocket"></i> Embedded Leadership & Execution</h2>
+    <p>If you already have a direction, we embed with your team to accelerate delivery and improve culture.</p>
+    <ul class="section-list">
+      <li>Provide experienced leadership across DevOps, Platform, and Cloud teams.</li>
+      <li>Remove delivery bottlenecks and improve execution flow.</li>
+      <li>Coach teams to reduce burnout and improve sustainability.</li>
+      <li>Introduce lightweight, meaningful metrics and continuous feedback loops.</li>
+    </ul>
+  </section>
 
-- What capabilities does your business need from the Cloud Engineering function?
-- Establish team's purpose and identity (principles, charter, landing page)
-- Strategy and operating model
-- Roadmap
-- Establish ways of working focusing on continuous improvement of the delivery management (Agile processes and rituals).
-- Perform analysis of the developer tooling in-use and artefacts produced to find security gaps, operational overhead and cost excess (Licenses, Infrastructure cost).
-- Risk Register
-- Understand your developer workflow/experience and work on continuous improving it? 
-  - What's your developer experience like?
-  - Are different teams in your business using different SDLC tools (SCM, CI/CD, Artefact Management, Code Quality)?
-- What's the total cost of ownership for running Cloud Operations in the business?
-  - How to quantify and track it the value that it's generating for the business?
-- What are the opportunities to consolidate the technologies used across the business?
-
-## Option 2: You direct us
-
-- Is our team geared for sustainability?
-- We are having recurring burnouts and other team or cultural/morale issues?
-
-# Let's Discuss Your Needs
-
-We understand that every business is unique. Contact us today to discuss your specific challenges and how our tailored services can help you achieve your goals.
-
-[Contact Us](/contact/)
+  <section class="contact-cta animate-fade-in delay-2">
+    <h2>Ready to Transform? Let’s Talk</h2>
+    <p>Every business is different. Let’s explore how we can tailor our approach to your challenges and goals.</p>
+    <a href="/contact/" class="button-primary">Contact Us</a>
+  </section>
+</section>
