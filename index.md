@@ -1,36 +1,33 @@
 ---
 layout: default
 title: Home
+permalink: /
+description: Unlock the Cloud Engineering potential
 ---
 
-# Unlock the Cloud Engineering potential
+<section class="default-page">
+  <section class="page-section animate-fade-in">
+    <h2><i class="fas fa-cloud"></i> Unlock the Cloud Engineering potential</h2>
+    <p>We combine our Cloud expertise, DevOps principles, Lean methodology, and Agile framework to deliver meaningful outcomes.</p>
+    <p>At the heart of what we do is a commitment to do impactful engineering.</p>
+  </section>
 
-We combine our **Cloud** expertise, **DevOps** principles, **Lean** methodology, and **Agile** framework to deliver meaningful outcomes.
+  <section class="page-section animate-slide-up">
+    <h2><i class="fas fa-hands-helping"></i> How we help</h2>
+    <p>We work side-by-side with your team to uncover critical issues, validate them, and execute a focused plan to fix what matters most.</p>
+    <p>Our approach delivers tactical wins now while building the foundation for lasting, sustainable success.</p>
+  </section>
 
-At the heart of what we do is a commitment to do impactful engineering.
+  <section class="page-section animate-slide-up">
+    <h3><i class="fas fa-lightbulb"></i> Strategic Assessment & Enablement</h3>
+    <p>We work side-by-side with your team to uncover critical issues, validate them, and execute a focused plan to fix what matters most.</p>
+    <p>Our approach delivers tactical wins now while building the foundation for lasting, sustainable success.</p>
 
-# How we help
+    <h3><i class="fas fa-rocket"></i> Embedded Leadership & Execution</h3>
+    <p>If you already have a direction, we embed with your team to accelerate delivery and improve culture.</p>
+  </section>
 
-We work side-by-side with your team to uncover critical issues, validate them, and execute a focused plan to fix what matters most.
-
-Our approach delivers tactical wins now while building the foundation for lasting, sustainable success.
-
-## Option 1: We assess and propose
-
-We analyse your environment to understand your unique challenges and identify top areas for a fast but long-lasting impact.
-
-Examples:
-- Evaluate and align the team's purpose and identity with the business.
-- Define a strategy and a roadmap to execute it.
-
-## Option 2: You direct us
-
-You tell us your top challenges, the outcomes you need, and the why behind them.
-
-Examples:
-- We see failures in our processes and technology, and our people are burnt out.
-- Our systems and processes are not automated enough, resulting in slower and unreliable deployments.
-
-# About Impact Eng
-
-Our mission is to empower your business by unlocking Cloud potential through expert engineering and exceptional people leadership.
+  <section class="contact-cta animate-fade-in">
+    <p>Our mission is to empower your business by unlocking Cloud potential through expert engineering and exceptional people leadership.</p>
+  </section>
+</section>
