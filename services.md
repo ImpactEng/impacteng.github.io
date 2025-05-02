@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Our Services
-permalink: /services/
 description: Discover how Impact Eng helps businesses unlock Cloud value through DevOps, Lean, and Agile excellence.
+permalink: /services/
 ---
 
 <section class="default-page">
@@ -37,9 +37,9 @@ description: Discover how Impact Eng helps businesses unlock Cloud value through
     </ul>
   </section>
 
-  <section class="contact-cta animate-fade-in delay-2">
-    <h2>Ready to Transform? Let’s Talk</h2>
-    <p>Every business is different. Let’s explore how we can tailor our approach to your challenges and goals.</p>
+  <section class="contact-cta animate-fade-in">
+    <h2>Ready to Transform?</h2>
+    <p>Let’s explore how we can tailor our approach to your challenges and goals.</p>
     <a href="/contact/" class="button-primary">Contact Us</a>
   </section>
 </section>

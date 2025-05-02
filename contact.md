@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Contact Us
-description: Get in touch with Impact Eng.
+description: Get in touch with Impact Eng to discuss how we can help your business unlock its Cloud potential.
 permalink: /contact/
 ---
 
@@ -18,26 +18,21 @@ permalink: /contact/
   </section>
 
   <section class="page-section animate-slide-up">
-  <h2><i class="fas fa-paper-plane"></i> Contact Form</h2>
-  <form action="https://formspree.io/f/xovdjgpr" method="POST" class="contact-form">
-    <div class="form-group">
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required>
-    </div>
-    <div class="form-group">
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required>
-    </div>
-    <div class="form-group">
-      <label for="message">Message:</label>
-      <textarea id="message" name="message" rows="5" required></textarea>
-    </div>
-    <button type="submit" class="button-primary">Send Message</button>
-  </form>
-</section>
-
-  <section class="contact-cta animate-fade-in">
-    <h2>Let’s Work Together</h2>
-    <p>We’re here to help you unlock your Cloud potential. Reach out today to start the conversation.</p>
+    <h2><i class="fas fa-paper-plane"></i> Contact Form</h2>
+    <form action="https://formspree.io/f/xovdjgpr" method="POST" class="contact-form">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+      </div>
+      <button type="submit" class="button-primary">Send Message</button>
+    </form>
   </section>
 </section>

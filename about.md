@@ -1,7 +1,7 @@
 ---
 layout: default
 title: About Us
-description: Learn more about Impact Eng and our mission.
+description: Learn about Impact Eng's mission to empower businesses through Cloud, DevOps, Lean, and Agile expertise.
 permalink: /about/
 ---
 
@@ -37,7 +37,7 @@ permalink: /about/
   </section>
 
   <section class="contact-cta animate-fade-in">
-    <h2>Ready to Learn More?</h2>
+    <h2>Want to Learn More?</h2>
     <p>We are passionate about driving positive impact and look forward to partnering with you on your journey.</p>
     <a href="/contact/" class="button-primary">Contact Us</a>
   </section>
