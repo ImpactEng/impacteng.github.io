@@ -2,66 +2,42 @@
 layout: default
 title: Contact Us
 description: Get in touch with Impact Eng.
+permalink: /contact/
 ---
 
-We'd love to hear from you!
+<section class="default-page">
+  <header class="hero animate-fade-in">
+    <h1>Contact Us</h1>
+    <p class="lead">We’d love to hear from you! Whether you have questions about our services or want to discuss how we can help your business, please reach out.</p>
+  </header>
 
-Whether you have questions about our services or want to discuss how we can help your business, please reach out.
+  <section class="page-section animate-slide-up">
+    <h2><i class="fas fa-envelope"></i> Get in Touch</h2>
+    <p><strong>Email:</strong> <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+    <p>Feel free to use the form below to send us a message, and we’ll get back to you as soon as possible.</p>
+  </section>
 
-**Email:** [{{ site.email }}](mailto:{{ site.email }})
+  <section class="page-section animate-slide-up">
+  <h2><i class="fas fa-paper-plane"></i> Contact Form</h2>
+  <form action="https://formspree.io/f/xovdjgpr" method="POST" class="contact-form">
+    <div class="form-group">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+    </div>
+    <button type="submit" class="button-primary">Send Message</button>
+  </form>
+</section>
 
-
-You can also use the form below to send us a message:
-
-<form action="https://formspree.io/f/xovdjgpr" method="POST">
-  <div class="form-group">
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name" required>
-  </div>
-  <div class="form-group">
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required>
-  </div>
-  <div class="form-group">
-    <label for="message">Message:</label>
-    <textarea id="message" name="message" rows="5" required></textarea>
-  </div>
-  <button type="submit" class="button">Send Message</button>
-</form>
-
-<style>
-.form-group {
-  margin-bottom: 1rem;
-}
-
-label {
-  display: block;
-  margin-bottom: 0.5rem;
-  font-weight: bold;
-}
-
-input[type="text"],
-input[type="email"],
-textarea {
-  width: 100%;
-  padding: 0.7rem;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-
-button[type="submit"] {
-  padding: 0.8rem 1.5rem;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 1rem;
-  transition: background-color 0.3s ease;
-}
-
-button[type="submit"]:hover {
-  background-color: #0056b3;
-}
-</style>
+  <section class="contact-cta animate-fade-in">
+    <h2>Let’s Work Together</h2>
+    <p>We’re here to help you unlock your Cloud potential. Reach out today to start the conversation.</p>
+  </section>
+</section>
