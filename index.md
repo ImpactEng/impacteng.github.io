@@ -33,4 +33,4 @@ Examples:
 
 # About Impact Eng
 
-Our mission is to empower your business by unlocking the full potential of your Cloud Engineering function.
+Our mission is to empower your business by unlocking Cloud potential through expert engineering and exceptional people leadership.

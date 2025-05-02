@@ -4,15 +4,13 @@ title: About Us
 description: Learn more about Impact Eng and our mission.
 ---
 
-# About Impact Eng
+# Our Mission
 
-## Our Mission
+We empower your business by unlocking Cloud potential through expert engineering and exceptional people leadership.
 
-Our mission is to empower your business by unlocking the full potential of your Cloud Engineering function.
+Our proven approach blends Cloud, DevOps, Lean, and Agile to drive continuous improvement and deliver lasting value — powered by high-performing teams built on trust, transparency, and aligned goals.
 
-The synergy of Cloud expertise, DevOps, Lean and Agile provides a robust framework for delivering exceptional value and fostering continuous improvement.
-
-## Our Expertise
+# Our Expertise
 
 We are in a unique position to combine our expertise in:
 
@@ -21,7 +19,7 @@ We are in a unique position to combine our expertise in:
 - **Lean:** Optimizing processes to eliminate waste and maximize value. 
 - **Agile:** Building adaptable solutions through iterative development and collaboration.
 
-## Why Choose Impact Eng
+# Why Choose Impact Eng
 
 - **Holistic Approach:** We integrate the best practices from various methodologies to address your unique challenges.
 - **Results-Oriented:** Our focus is on delivering tangible business outcomes and real value.
