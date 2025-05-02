@@ -11,9 +11,9 @@ At the heart of what we do is a commitment to do impactful engineering.
 
 # How we help
 
-We will work closely with you to understand and validate challenges and create a remediation plan.
-    
-We focus on driving tactical wins today while laying the groundwork for sustainable, long-term success.
+We work side-by-side with your team to uncover critical issues, validate them, and execute a focused plan to fix what matters most.
+
+Our approach delivers tactical wins now while building the foundation for lasting, sustainable success.
 
 ## Option 1: We assess and propose
 
