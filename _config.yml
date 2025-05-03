@@ -20,8 +20,8 @@ markdown: kramdown
 theme: minima
 plugins:
   - github-pages
+  - jekyll-seo-tag
 #  - jekyll-feed
-#  - jekyll-seo-tag
 
 header_pages:
   - index.md
@@ -37,7 +37,6 @@ minima:
   date_format: "%b %-d, %Y"
 
 # GitHub Pages settings
-#remote_theme: jekyll/minima
 #github:
 #  is_project_page: false
 
