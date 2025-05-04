@@ -31,7 +31,6 @@ permalink: /blog/is-your-cloud-strategy-working/
       <li><strong>Faster Innovation:</strong> Leverage cloud tools like AI to outpace competitors.</li>
       <li><strong>Enhanced Security:</strong> Strengthen defences and meet compliance effortlessly.</li>
     </ul>
-    <p>Consider a fintech company: post-assessment, they automated deployments, slashed costs by 15%, and added AI-driven fraud detection—boosting both efficiency and market edge.</p>
   </section>
 
   <section class="page-section animate-slide-up">
