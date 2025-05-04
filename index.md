@@ -19,8 +19,7 @@ permalink: /
 
   <section class="page-section animate-slide-up">
     <h3><i class="fas fa-lightbulb"></i> Strategic Assessment & Enablement</h3>
-    <p>We work side-by-side with your team to uncover critical issues, validate them, and execute a focused plan to fix what matters most.</p>
-    <p>Our approach delivers tactical wins now while building the foundation for lasting, sustainable success.</p>
+    <p>We partner with your team to assess your current state and define a clear path forward.</p>
 
     <h3><i class="fas fa-rocket"></i> Embedded Leadership & Execution</h3>
     <p>If you already have a direction, we embed with your team to accelerate delivery and improve culture.</p>
