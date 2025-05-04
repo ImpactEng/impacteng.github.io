@@ -23,6 +23,8 @@ plugins:
   - jekyll-seo-tag
 #  - jekyll-feed
 
+excerpt_separator: "<!--more-->"
+
 header_pages:
   - index.md
   - about.md
