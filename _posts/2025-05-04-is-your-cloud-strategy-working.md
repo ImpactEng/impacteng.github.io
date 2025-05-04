@@ -10,7 +10,7 @@ permalink: /blog/is-your-cloud-strategy-working/
     <h1>Is Your Cloud Strategy Working?</h1>
     <p class="lead">Cloud engineering drives modern businesses, enabling cost efficiency, scalability, and innovation. Yet, many companies struggle to measure its true impact. Here's how to evaluate your strategy and why it matters.</p>
   </header>
-
+<!--more-->
   <section class="page-section animate-slide-up">
     <h2><i class="fas fa-tasks"></i> The Assessment in 5 Simple Steps</h2>
     <ul class="section-list">
