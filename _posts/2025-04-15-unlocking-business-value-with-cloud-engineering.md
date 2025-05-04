@@ -9,7 +9,7 @@ permalink: /blog/:title/
     <h1>Introduction</h1>
     <p>Cloud engineering is the driving force behind modern business agility, enabling scalable, secure, and innovative solutions. As a dedicated function, it designs and manages cloud systems on platforms like AWS or Azure. By aligning with business objectives and leveraging mature practices, businesses can extract transformative value from their cloud engineering teams. Here’s how.</p>
   </section>
-
+<!--more-->
   <section class="page-section animate-slide-up">
     <h2>What is a Cloud Engineering Function?</h2>
     <p>Cloud engineering is a specialised team that architects, deploys, and optimises cloud-based infrastructure and applications. It utilises tools like Terraform, Kubernetes, and cloud-native services to deliver cost-efficient, resilient systems. From automation to security, the function ensures cloud environments support business success whilst adhering to frameworks like Cloud Adoption Framework (CAF) and Well-Architected Framework.</p>
