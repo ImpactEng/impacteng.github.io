@@ -1,0 +1,60 @@
+# Site settings
+# https://github.com/jekyll/minima/tree/2.5-stable
+title: Cloud Engineering for Lasting Impact!
+description: >-
+  Accelerate success with Cloud Engineering, DevOps & Agile.
+baseurl: "" # Set to "/repository-name" if hosted in a subdirectory
+url: "https://impacteng.com.au"
+email: hi@impacteng.com.au
+#twitter_username: impactengx
+#github_username: impacteng
+#linkedin_username: impactengx
+google_analytics: G-89R5ETTN6P
+show_downloads: false
+
+# To display post-excerpts on the Home Page, simply add the following to your _config.yml:
+show_excerpts: false
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - github-pages
+  - jekyll-seo-tag
+#  - jekyll-feed
+
+excerpt_separator: "<!--more-->"
+
+header_pages:
+  - index.md
+  - about.md
+  - services.md
+  - blog.md
+  - contact.md
+
+# Minima settings
+minima:
+  skin: default # You can explore other skins
+  hide_site_feed_link: true
+  date_format: "%b %-d, %Y"
+
+# GitHub Pages settings
+#github:
+#  is_project_page: false
+
+# Security settings
+permalink: pretty
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Dockerfile
+  - docker-compose.yml
+  - vendor/
+  - scripts/
+  - .github/
+  - README.md
+  - .gitignore
+  - ../ # Prevent including parent directory
+
+# Output
+destination: ./_site

@@ -1,0 +1,59 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+/* Impact Eng customisation */
+@import "impacteng-theme/custom";
+
+// Base styles
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f9f9f9;
+  color: #333;
+}
+
+.site-container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.hero {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.site-header,
+.site-footer {
+  text-align: center;
+  padding: 1rem 0;
+  background: #eaf4fc;
+  color: #222;
+}
+
+.page-content {
+  padding: 1rem 0;
+}
+
+/* Impact Eng customisation */
+/* Fix for nav links not working on a mobile device */
+.site-nav {
+  position: relative;
+  z-index: 10; // Ensure the dropdown is above other elements
+
+  .trigger {
+    position: relative;
+    z-index: 10; // Ensure links are clickable
+  }
+
+  label[for="nav-trigger"] {
+    z-index: 20; // Ensure the menu icon is above the dropdown
+  }
+}
+
+.nav-trigger:checked ~ .trigger {
+  display: block;
+  z-index: 10; // Ensure the dropdown is above other elements
+}

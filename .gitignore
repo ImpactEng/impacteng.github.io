@@ -1,8 +1,8 @@
 # Jekyll build artifacts
-sitefiles/_site/
-sitefiles/.jekyll-cache/
-sitefiles/.sass-cache/
-sitefiles/.jekyll-metadata
+_site/
+.jekyll-cache/
+.sass-cache/
+.jekyll-metadata
 
 # Ruby/Bundler files
 Gemfile.lock
