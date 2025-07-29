@@ -21,7 +21,7 @@ permalink: /about/
     <ul class="section-list">
       <li><strong>Cloud:</strong> Scalable, secure, and cost-efficient solutions that align with your business goals.</li>
       <li><strong>DevOps:</strong> Streamlining software delivery for faster, more reliable deployments.</li>
-      <li><strong>Lean:</strong> Optimizing processes to eliminate waste and maximize value.</li>
+      <li><strong>Lean:</strong> Optimising processes to eliminate waste and maximise value.</li>
       <li><strong>Agile:</strong> Building adaptable solutions through iterative development and collaboration.</li>
     </ul>
   </section>

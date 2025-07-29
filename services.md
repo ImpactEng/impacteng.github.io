@@ -17,7 +17,7 @@ permalink: /services/
     <ul class="section-list">
       <li><strong>Purpose & Identity:</strong> Define Cloud Engineering's principles, charter, and team visibility.</li>
       <li><strong>Operating Model:</strong> Establish a scalable strategy and transformation roadmap.</li>
-      <li><strong>Delivery Process:</strong> Optimize Agile and DevOps practices with continuous improvement.</li>
+      <li><strong>Delivery Process:</strong> Optimise Agile and DevOps practices with continuous improvement.</li>
       <li><strong>Tooling Audit:</strong> Identify gaps in security, operations, and cost (licenses, infra).</li>
       <li><strong>Developer Experience:</strong> Standardize SDLC tools: SCM, CI/CD, code quality, artifacts.</li>
       <li><strong>Cloud Costing:</strong> Analyze and reduce total cost of cloud ownership (TCO).</li>

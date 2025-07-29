@@ -116,7 +116,7 @@ author: Nitin Sharma
 
   <section class="contact-cta animate-fade-in">
     <h2>Ready to Find Your Quick Wins?</h2>
-    <p>Start your optimization journey today. We can help you identify and execute high-impact improvements in your cloud infrastructure.</p>
+    <p>Start your optimisation journey today. We can help you identify and execute high-impact improvements in your cloud infrastructure.</p>
     <a href="/contact/" class="button-primary">Get Started</a>
   </section>
 </section>
