@@ -19,8 +19,8 @@ permalink: /services/
       <li><strong>Operating Model:</strong> Establish a scalable strategy and transformation roadmap.</li>
       <li><strong>Delivery Process:</strong> Optimise Agile and DevOps practices with continuous improvement.</li>
       <li><strong>Tooling Audit:</strong> Identify gaps in security, operations, and cost (licenses, infra).</li>
-      <li><strong>Developer Experience:</strong> Standardize SDLC tools: SCM, CI/CD, code quality, artifacts.</li>
-      <li><strong>Cloud Costing:</strong> Analyze and reduce total cost of cloud ownership (TCO).</li>
+      <li><strong>Developer Experience:</strong> Standardise SDLC tools: SCM, CI/CD, code quality, artifacts.</li>
+      <li><strong>Cloud Costing:</strong> Analyse and reduce total cost of cloud ownership (TCO).</li>
       <li><strong>Tech Consolidation:</strong> Eliminate redundancies and streamline the tech stack.</li>
       <li><strong>Risk Management:</strong> Build a risk register and actionable mitigation plan.</li>
     </ul>
