@@ -10,12 +10,12 @@ services:
     environment:
       - JEKYLL_ENV=development
     command: >
-      bundle exec jekyll serve --source sitefiles --destination sitefiles/_site --host 0.0.0.0 --port 4000 --livereload
+      bundle exec jekyll serve --host 0.0.0.0 --port 4000 --livereload
     develop:
       watch:
         - action: sync
-          path: ./sitefiles
-          target: /app/sitefiles
+          path: .
+          target: /app
           ignore:
-            - sitefiles/_site/
-            - sitefiles/.jekyll-cache/
+            - _site/
+            - .jekyll-cache/
