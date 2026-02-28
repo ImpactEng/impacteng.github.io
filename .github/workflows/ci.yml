@@ -1,0 +1,30 @@
+name: CI
+
+on:
+  push:
+    branches: [main, gh-pages]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3.4'
+          bundler-cache: true
+
+      - name: Build site
+        run: bundle exec jekyll build
+        env:
+          JEKYLL_ENV: production
+
+      - name: Run html-proofer
+        run: |
+          bundle exec htmlproofer ./_site \
+            --checks "Links,Images,Scripts,Html" \
+            --allow-hash-href \
+            --ignore-urls "/linkedin\.com/,/twitter\.com/,/x\.com/,/formspree\.io/,/use\.fontawesome\.com/"

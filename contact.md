@@ -32,6 +32,10 @@ permalink: /contact/
         <label for="message">Message:</label>
         <textarea id="message" name="message" rows="5" required></textarea>
       </div>
+      <div style="display:none;" aria-hidden="true">
+        <label for="website">Website (leave blank)</label>
+        <input type="url" id="website" name="_gotcha" tabindex="-1" autocomplete="off">
+      </div>
       <button type="submit" class="button-primary">Send Message</button>
     </form>
   </section>
