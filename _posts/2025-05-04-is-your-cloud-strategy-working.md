@@ -1,8 +1,10 @@
 ---
-layout: default
+layout: post
 title: Is Your Cloud Strategy Working?
 description: Learn how to evaluate your Cloud Engineering department's effectiveness through strategic assessment and discover why it matters for your business success.
 permalink: /blog/is-your-cloud-strategy-working/
+author: Nitin Sharma
+tags: [cloud, strategy, assessment]
 ---
 
 <section class="default-page">

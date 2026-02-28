@@ -1,8 +1,10 @@
 ---
+layout: post
 title: "Demystifying AI for DevOps, SRE, and Cloud Engineers: From Basics to Practical LLM Applications"
-tags: ["AI", "DevOps", "SRE", "Cloud Engineering", "Platform Engineering", "LLMs", "Machine Learning"]
 description: "A guide to AI fundamentals, terminology, and LLM usage tailored for DevOps, SRE, and Cloud professionals with limited AI experience."
-Author: "Nitin Sharma"
+permalink: /blog/demystifying-ai-for-devops-sre-and-cloud-engineers/
+author: Nitin Sharma
+tags: [AI, devops, sre, cloud, platform-engineering, LLMs]
 ---
 
 <section class="default-page">

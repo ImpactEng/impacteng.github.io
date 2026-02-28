@@ -1,9 +1,10 @@
 ---
-layout: default
+layout: post
 title: Cloud Engineering - Targeting the Lowest-Hanging Fruit
 description: Learn how to identify and execute quick wins in your cloud infrastructure for immediate cost savings and efficiency gains.
 permalink: /blog/cloud-engineering-targeting-the-lowest-hanging-fruit/
 author: Nitin Sharma
+tags: [cloud, cost-optimisation, quick-wins]
 ---
 
 <section class="default-page">

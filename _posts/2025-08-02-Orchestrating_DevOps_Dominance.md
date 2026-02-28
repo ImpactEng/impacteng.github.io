@@ -1,9 +1,10 @@
 ---
-layout: default
+layout: post
 title: Orchestrating DevOps Dominance
 description: How I Turned a $2.3M Setup into $7.4M Value in an Aussie Enterprise.
 permalink: /blog/orchestrating-devops-dominance/
 author: Nitin Sharma
+tags: [devops, roi, case-study, australia]
 ---
 
 <section class="default-page">

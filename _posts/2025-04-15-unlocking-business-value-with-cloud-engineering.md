@@ -1,7 +1,10 @@
 ---
-layout: default
+layout: post
 title: Unlocking Business Value with Cloud Engineering
-permalink: /blog/:title/
+description: Discover how Cloud Engineering drives measurable business value through automation, cost optimisation, and engineering excellence.
+permalink: /blog/unlocking-business-value-with-cloud-engineering/
+author: Nitin Sharma
+tags: [cloud, devops, strategy]
 ---
 
 <section class="default-page">
