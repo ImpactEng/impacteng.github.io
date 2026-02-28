@@ -23,6 +23,3 @@ end
 group :test do
   gem 'html-proofer', '~> 5.0'
 end
-
-# Pin Bundler
-gem 'bundler', '~> 2.6'

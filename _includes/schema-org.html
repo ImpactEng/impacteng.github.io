@@ -8,9 +8,7 @@
   "description": "{{ site.description | escape }}",
   "areaServed": "AU",
   "sameAs": [
-    "https://linkedin.com/company/{{ site.linkedin_username }}",
-    "https://x.com/{{ site.twitter_username }}",
-    "https://github.com/{{ site.github_username }}"
+    {%- if site.linkedin_username %}"https://www.linkedin.com/company/{{ site.linkedin_username }}"{% endif %}
   ]
 }
 </script>
