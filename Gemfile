@@ -19,5 +19,10 @@ group :development do
   gem 'webrick', '~> 1.9'
 end
 
+# Test dependencies
+group :test do
+  gem 'html-proofer', '~> 5.0'
+end
+
 # Pin Bundler
 gem 'bundler', '~> 2.6'
