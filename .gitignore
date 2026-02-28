@@ -35,3 +35,12 @@ package-lock.json
 .env
 tmp/
 .DS_Store
+
+# AI tool configs (managed by ai-config-sync)
+.claude/
+.cursor/
+.windsurfrules
+.cursorrules
+.clinerules
+AGENTS.md
+.github/copilot-instructions.md

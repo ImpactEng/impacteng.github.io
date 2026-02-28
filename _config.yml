@@ -6,14 +6,14 @@ description: >-
 baseurl: "" # Set to "/repository-name" if hosted in a subdirectory
 url: "https://impacteng.com.au"
 email: hi@impacteng.com.au
-#twitter_username: impactengx
-#github_username: impacteng
-#linkedin_username: impactengx
+twitter_username: impactengx
+github_username: impacteng
+linkedin_username: impactengx
 google_analytics: G-89R5ETTN6P
 show_downloads: false
 
 # To display post-excerpts on the Home Page, simply add the following to your _config.yml:
-show_excerpts: false
+show_excerpts: true
 
 # Build settings
 markdown: kramdown
@@ -21,7 +21,8 @@ theme: minima
 plugins:
   - github-pages
   - jekyll-seo-tag
-#  - jekyll-feed
+  - jekyll-feed
+  - jekyll-sitemap
 
 excerpt_separator: "<!--more-->"
 
@@ -31,6 +32,9 @@ header_pages:
   - services.md
   - blog.md
   - contact.md
+
+# Default OG image (used by jekyll-seo-tag when no page-specific image is set)
+image: /assets/images/og-image.jpg
 
 # Minima settings
 minima:
@@ -51,10 +55,19 @@ exclude:
   - docker-compose.yml
   - vendor/
   - scripts/
+  - patches/
   - .github/
   - README.md
+  - readme.md
   - .gitignore
+  - AGENTS.md
+  - .clinerules
+  - .cursorrules
+  - .windsurfrules
   - ../ # Prevent including parent directory
+
+include:
+  - .well-known/
 
 # Output
 destination: ./_site
