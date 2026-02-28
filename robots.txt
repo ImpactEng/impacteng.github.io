@@ -1,3 +1,7 @@
+User-agent: *
+Allow: /
+Sitemap: https://impacteng.com.au/sitemap.xml
+
 User-agent: GPTBot
 Disallow: /
 
