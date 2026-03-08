@@ -190,3 +190,183 @@ $layout: (
     transform: translate(-50%, -50%);
   }
 }
+
+// Pricing table + featured service card (Agentic AI Readiness Audit)
+.default-page {
+  .pricing-table {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .pricing-card {
+    background: #fff;
+    border: 2px solid #D6EAF8;
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+
+    h3 { color: #1E3A5F; font-size: 1.3rem; margin: 0; }
+
+    &__price {
+      font-size: 1.6rem;
+      font-weight: bold;
+      color: #1E3A5F;
+    }
+
+    &__description { color: #555; font-size: 0.9rem; }
+
+    &__features {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      text-align: left;
+
+      li {
+        padding: 0.3rem 0;
+        border-bottom: 1px solid #f0f0f0;
+        font-size: 0.9rem;
+
+        &:last-child { border-bottom: none; }
+      }
+    }
+
+    &__badge {
+      position: absolute;
+      top: -0.75rem;
+      left: 50%;
+      transform: translateX(-50%);
+      background: #2E86AB;
+      color: #fff;
+      font-size: 0.75rem;
+      font-weight: bold;
+      padding: 0.25rem 0.75rem;
+      border-radius: 12px;
+      white-space: nowrap;
+    }
+
+    &--featured {
+      border-color: #2E86AB;
+      background: #D6EAF8;
+    }
+
+    .button-primary { margin-top: auto; }
+  }
+
+  .featured-service-card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: center;
+    background: #D6EAF8;
+    border-left: 4px solid #2E86AB;
+    border-radius: 6px;
+    padding: 1.5rem;
+    margin-top: 1rem;
+
+    &__content {
+      flex: 1 1 300px;
+
+      h3 { color: #1E3A5F; margin-top: 0; }
+    }
+
+    &__cta { flex: 0 0 auto; }
+  }
+
+  .phase-timeline {
+    counter-reset: phase;
+    list-style: none;
+    padding: 0;
+    margin: 1.5rem 0 0;
+
+    li {
+      counter-increment: phase;
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+      padding-left: 0;
+
+      &::before {
+        content: counter(phase);
+        flex-shrink: 0;
+        width: 2.2rem;
+        height: 2.2rem;
+        border-radius: 50%;
+        background: #2E86AB;
+        color: #fff;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.9rem;
+      }
+    }
+  }
+
+  .stat-highlight {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+
+    i {
+      color: #2E86AB;
+      font-size: 1.2rem;
+      margin-top: 0.15rem;
+      flex-shrink: 0;
+    }
+  }
+
+  .credit-note {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 0.95rem;
+    color: #1E3A5F;
+    font-weight: 500;
+  }
+
+  .faq-list {
+    margin-top: 1rem;
+
+    details {
+      border-bottom: 1px solid #e0e0e0;
+      padding: 1rem 0;
+
+      &[open] summary {
+        margin-bottom: 0.75rem;
+      }
+    }
+
+    summary {
+      cursor: pointer;
+      font-weight: bold;
+      color: #1E3A5F;
+      font-size: 1rem;
+      list-style: none;
+
+      &::-webkit-details-marker { display: none; }
+
+      &::before {
+        content: "+";
+        display: inline-block;
+        width: 1.5rem;
+        font-weight: bold;
+        color: #2E86AB;
+      }
+    }
+
+    details[open] summary::before {
+      content: "−";
+    }
+
+    p {
+      padding-left: 1.5rem;
+      color: #444;
+    }
+  }
+}

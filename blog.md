@@ -1,14 +1,14 @@
 ---
 layout: default
 title: Blog
-description: Insights on systems engineering, DevOps, and cloud engineering.
+description: Insights on Cloud infrastructure, DevOps, AI readiness, and building engineering teams that ship.
 permalink: /blog/
 ---
 
 <section class="default-page">
   <header class="hero animate-fade-in">
     <h1>Our Blog</h1>
-    <p class="lead">Insights on Cloud engineering, DevOps, Agile, and Team-building for modern engineering teams.</p>
+    <p class="lead">Insights on Cloud infrastructure, DevOps, AI readiness, and building engineering teams that ship.</p>
   </header>
 
   <section class="post-section animate-slide-up">
@@ -26,8 +26,8 @@ permalink: /blog/
   </section>
 
   <section class="contact-cta animate-fade-in">
-    <h2>Have Questions or Ideas?</h2>
-    <p>We’d love to hear your thoughts or collaborate on new topics. Reach out to us today!</p>
-    <a href="/contact/" class="button-primary">Contact Us</a>
+    <h2>Want to talk about what you are working on?</h2>
+    <p>We are always happy to discuss Cloud, DevOps, and AI readiness challenges. No obligation.</p>
+    <a href="/contact/" class="button-primary">Get in Touch</a>
   </section>
 </section>
