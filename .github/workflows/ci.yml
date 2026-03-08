@@ -27,4 +27,4 @@ jobs:
           bundle exec htmlproofer ./_site \
             --checks "Links,Images,Scripts,Html" \
             --allow-hash-href \
-            --ignore-urls "/linkedin\.com/,/twitter\.com/,/x\.com/,/formspree\.io/,/use\.fontawesome\.com/"
+            --ignore-urls "/impacteng\.com\.au/,/linkedin\.com/,/twitter\.com/,/x\.com/,/formspree\.io/,/use\.fontawesome\.com/"
