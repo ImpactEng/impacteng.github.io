@@ -205,4 +205,10 @@ tags: [AI, devops, sre, cloud, platform-engineering, LLMs]
       </li>
     </ul>
   </section>
+
+  <section class=”page-section animate-slide-up”>
+    <h2><i class=”fas fa-forward”></i> Where to From Here</h2>
+    <p>Understanding AI fundamentals is the first step. The next is knowing whether your organisation's Cloud and DevOps foundations are ready to support AI agents in production. Our <a href=”/services/ai-readiness-audit/”>Agentic AI Readiness Audit</a> evaluates exactly that, scoring your infrastructure, data pipelines, governance, and team capability across six dimensions.</p>
+    <p>For a broader look at how we help engineering teams build AI-ready foundations, see our <a href=”/services/”>full list of services</a>. You may also find our case study on <a href=”/blog/orchestrating-devops-dominance/”>turning a $2.3M DevOps investment into $7.4M value</a> a useful example of what mature Cloud and DevOps practice looks like in an Australian enterprise.</p>
+  </section>
 </section>

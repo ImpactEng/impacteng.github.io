@@ -12,8 +12,14 @@ permalink: /contact/
   </header>
 
   <section class="page-section animate-slide-up">
-    <h2><i class="fas fa-envelope"></i> Get in Touch</h2>
-    <p><strong>Email:</strong> <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+    <h2><i class="fas fa-calendar-check"></i> Book a Discovery Call</h2>
+    <p>Pick a 30-minute slot that works for you. No obligation, no sales pitch.</p>
+    <a href="{{ site.booking_url }}" class="button-primary" target="_blank" rel="noopener">Book a 30-Minute Call</a>
+  </section>
+
+  <section class="page-section animate-slide-up">
+    <h2><i class="fas fa-envelope"></i> Prefer Email?</h2>
+    <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
     <p>Or use the form below and we will get back to you within one business day.</p>
   </section>
 

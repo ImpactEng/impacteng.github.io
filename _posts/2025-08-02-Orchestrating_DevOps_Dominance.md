@@ -95,10 +95,11 @@ tags: [devops, roi, case-study, australia]
     <h2><i class="fas fa-rocket"></i> Looking Ahead: Bridging, Building, and Boosting Value</h2>
     <p>As I reflect on my experience, the key takeaway is the critical role of being the bridge. You’re constantly mediating between often-unclear business needs, the diverse expectations of stakeholders (developers, security teams, architects), and the ever-evolving tech preferences within your own tribe. Creating clear yet adaptable structures that provide both boundaries and a sense of shared purpose is paramount.</p>
     <p>This period significantly shaped my own career trajectory, reinforcing the power of a hybrid approach to IT and DevOps, the absolute necessity of being able to narrate value in a language the business understands, and the art of orchestration to achieve significant impact.</p>
+    <p>If you are evaluating whether your own Cloud and DevOps foundations are ready for the next step, our <a href="/services/ai-readiness-audit/">Agentic AI Readiness Audit</a> scores your organisation across six dimensions. For a broader view of how to extract value from your Cloud investment, see our post on <a href="/blog/unlocking-business-value-with-cloud-engineering/">building business value with Cloud Engineering</a>.</p>
   </section>
     <section class="contact-cta animate-fade-in">
     <h2>Ready to Transform?</h2>
-    <p>Let’s explore how we can tailor our approach to your challenges and goals.</p>
+    <p>See how our <a href="/services/">assessment and enablement services</a> can help you achieve similar results.</p>
     <a href="/contact/" class="button-primary">Contact Us</a>
   </section>
 </section>

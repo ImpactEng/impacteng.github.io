@@ -38,11 +38,12 @@ tags: [cloud, strategy, assessment]
   <section class="page-section animate-slide-up">
     <h2><i class="fas fa-lightbulb"></i> Why It's Essential</h2>
     <p>In a nutshell, a strategic assessment transforms your Cloud Engineering department into a business powerhouse. It aligns technology with strategy, uncovers hidden potential, and keeps you adaptable.</p>
+    <p>If your roadmap includes AI adoption, your Cloud strategy assessment should also consider AI readiness. Our <a href="/services/ai-readiness-audit/">Agentic AI Readiness Audit</a> evaluates your Cloud infrastructure, DevOps maturity, and data quality across six weighted dimensions to determine whether your foundations are ready for AI agents in production.</p>
   </section>
 
   <section class="contact-cta animate-fade-in">
     <h2>Ready to Evaluate Your Cloud Strategy?</h2>
-    <p>Want to maximise your cloud investment? Start with an assessment—it's your key to staying competitive in a digital-first world.</p>
+    <p>Want to maximise your Cloud investment? Start with an assessment. Explore our full range of <a href="/services/">assessment and enablement services</a>, or get in touch directly.</p>
     <a href="/contact/" class="button-primary">Get Started</a>
   </section>
 </section>

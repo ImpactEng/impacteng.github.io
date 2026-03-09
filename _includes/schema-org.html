@@ -2,11 +2,27 @@
 {
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
+  "@id": "{{ site.url }}/#organization",
   "name": "Impact Eng",
   "url": "{{ site.url }}",
   "email": "{{ site.email }}",
   "description": "{{ site.description | escape }}",
-  "areaServed": "AU",
+  "image": "{{ site.url }}/assets/images/og-image.jpg",
+  "areaServed": {
+    "@type": "Country",
+    "name": "Australia"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "AU"
+  },
+  "founder": {
+    "@type": "Person",
+    "name": "Nitin Sharma",
+    "jobTitle": "Founder"
+  },
+  "serviceType": ["Cloud Engineering", "DevOps Consulting", "AI Readiness Audit"],
+  "knowsAbout": ["Cloud Infrastructure", "DevOps", "AI Readiness", "Platform Engineering", "Kubernetes", "CI/CD"],
   "sameAs": [
     {%- if site.linkedin_username %}"https://www.linkedin.com/company/{{ site.linkedin_username }}"{% endif %}
   ]

@@ -35,7 +35,7 @@ permalink: /services/
       <li><strong>Delivery Process:</strong> Optimise Agile and DevOps practices with continuous improvement.</li>
       <li><strong>Tooling Audit:</strong> Identify gaps in security, operations, and cost (licenses, infra).</li>
       <li><strong>Developer Experience:</strong> Standardise SDLC tools: SCM, CI/CD, code quality, artifacts.</li>
-      <li><strong>Cloud Costing:</strong> Analyse and reduce total cost of Cloud ownership (TCO).</li>
+      <li><strong>Cloud Costing:</strong> Analyse and reduce total cost of Cloud ownership (TCO). See our guide to <a href="/blog/cloud-engineering-targeting-the-lowest-hanging-fruit/">targeting quick wins</a> for practical examples.</li>
       <li><strong>Tech Consolidation:</strong> Eliminate redundancies and streamline the tech stack.</li>
       <li><strong>Risk Management:</strong> Build a risk register and actionable mitigation plan.</li>
     </ul>
@@ -50,6 +50,7 @@ permalink: /services/
       <li>Coach teams to reduce burnout and improve sustainability.</li>
       <li>Introduce lightweight, meaningful metrics and continuous feedback loops.</li>
     </ul>
+    <p>Read how embedded leadership delivered <a href="/blog/orchestrating-devops-dominance/">3x ROI at an Australian enterprise</a>.</p>
   </section>
 
   <section class="contact-cta animate-fade-in">

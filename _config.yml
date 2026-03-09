@@ -3,9 +3,11 @@
 title: Cloud, DevOps & AI Readiness Consulting | ImpactEng
 description: >-
   We help engineering teams build the Cloud and DevOps foundations AI agents actually need. Fixed-price assessments. Embedded execution. Real outcomes.
+lang: en-AU
 baseurl: "" # Set to "/repository-name" if hosted in a subdirectory
 url: "https://impacteng.com.au"
 email: hi@impacteng.com.au
+booking_url: "https://calendar.app.google/RgJtyQVimhpUgbTE7"
 #twitter_username: impactengx
 #github_username: impacteng
 linkedin_username: impactengx

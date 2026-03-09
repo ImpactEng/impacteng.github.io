@@ -3,6 +3,17 @@ layout: default
 title: "Agentic AI Readiness Audit"
 description: "A fixed-price assessment of your Cloud, DevOps, team, and governance readiness to deploy AI agents in production. From AUD $2,500."
 permalink: /services/ai-readiness-audit/
+faqs:
+  - question: "What does the assessment actually involve?"
+    answer: "Four phases over 14 days. We request read-only access to your Cloud environment, conduct 3 to 8 structured interviews with engineering and leadership stakeholders, review key artefacts (CI/CD configs, architecture diagrams, incident logs), and score your organisation across six weighted dimensions. You receive a scored report, a 90-day roadmap, and a board-ready executive summary."
+  - question: "How is this different from what a large consultancy would do?"
+    answer: "We are technical and embedded, not strategic and parachuted. Our assessors have hands-on Cloud and DevOps experience. The engagement is fixed price with a defined scope and timeline. There is no 6-week discovery phase before the real work starts."
+  - question: "What is the Readiness Snapshot and who is it for?"
+    answer: "The Readiness Snapshot is a lightweight, 3-hour scoping session that gives you a written heatmap across all six dimensions within 48 hours. It is designed for organisations that want a fast, low-commitment read on their AI readiness before committing to a full audit."
+  - question: "What happens after the audit?"
+    answer: "Three options: your team self-executes the roadmap, we embed to close the highest-priority gaps, or we lead your first production AI agent deployment. Book a follow-on engagement within 30 days and part of your audit fee is credited toward the next engagement."
+  - question: "Do you have case studies or examples?"
+    answer: "This is a newly launched product, so we do not have published case studies yet. We have the assessment framework grounded in BCG, McKinsey, and Deloitte AI research. We are happy to walk you through the framework and scoring methodology on a no-cost 30-minute call."
 ---
 
 <section class="default-page">
@@ -26,7 +37,7 @@ permalink: /services/ai-readiness-audit/
       <i class="fas fa-chart-line"></i>
       <p><strong>Only 1% of organisations</strong> are truly AI-mature (Gartner)</p>
     </div>
-    <p>The gap between AI ambition and AI delivery is a readiness problem. It is measurable, and it is fixable.</p>
+    <p>The gap between AI ambition and AI delivery is a readiness problem. It is measurable, and it is fixable. For a deeper look at what this means for engineering teams, read our guide to <a href="/blog/demystifying-ai-for-devops-sre-and-cloud-engineers/">AI fundamentals for DevOps and Cloud engineers</a>.</p>
   </section>
 
   <section class="page-section animate-slide-up delay-1">
@@ -41,7 +52,7 @@ permalink: /services/ai-readiness-audit/
       <li><strong>Strategic Alignment &amp; Use Case Prioritisation (10%):</strong> Defined use cases, business-value prioritisation, ROI estimates, board endorsement, and milestone timelines.</li>
     </ul>
     <p style="margin-top: 1.5rem;"><strong>Want to see how your organisation scores?</strong></p>
-    <a href="/contact/" class="button-primary">Book a Conversation</a>
+    <a href="{{ site.booking_url }}" class="button-primary" target="_blank" rel="noopener">Book a Conversation</a>
   </section>
 
   <section class="page-section animate-slide-up delay-2">
@@ -102,7 +113,7 @@ permalink: /services/ai-readiness-audit/
           <li>Written heatmap with tier recommendation</li>
           <li>Delivered within 48 hours</li>
         </ul>
-        <a href="/contact/" class="button-primary">Get Started</a>
+        <a href="{{ site.booking_url }}" class="button-primary" target="_blank" rel="noopener">Get Started</a>
       </div>
 
       <div class="pricing-card pricing-card--featured">
@@ -119,7 +130,7 @@ permalink: /services/ai-readiness-audit/
           <li>Executive Summary</li>
           <li>Readout session + follow-up call</li>
         </ul>
-        <a href="/contact/" class="button-primary">Book a Call</a>
+        <a href="{{ site.booking_url }}" class="button-primary" target="_blank" rel="noopener">Book a Call</a>
       </div>
 
       <div class="pricing-card">
@@ -135,7 +146,7 @@ permalink: /services/ai-readiness-audit/
           <li>Readiness Report + Roadmap</li>
           <li>Executive Summary + board briefing</li>
         </ul>
-        <a href="/contact/" class="button-primary">Book a Call</a>
+        <a href="{{ site.booking_url }}" class="button-primary" target="_blank" rel="noopener">Book a Call</a>
       </div>
 
     </div>
@@ -181,7 +192,7 @@ permalink: /services/ai-readiness-audit/
   <section class="contact-cta animate-fade-in">
     <h2>Ready to Find Out Where You Stand?</h2>
     <p>Book a no-obligation 30-minute call to discuss your organisation's AI readiness and which tier is right for you.</p>
-    <a href="/contact/" class="button-primary">Book a Discovery Call</a>
-    <p style="margin-top: 1rem; font-size: 0.9rem;">Or email us directly at <a href="mailto:hi@impacteng.com.au">hi@impacteng.com.au</a></p>
+    <a href="{{ site.booking_url }}" class="button-primary" target="_blank" rel="noopener">Book a Discovery Call</a>
+    <p style="margin-top: 1rem; font-size: 0.9rem;">Or email us directly at <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
   </section>
 </section>

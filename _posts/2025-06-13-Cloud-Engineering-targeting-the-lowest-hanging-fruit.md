@@ -62,7 +62,7 @@ tags: [cloud, cost-optimisation, quick-wins]
     <h3>4. Take Action</h3>
     <p>Take a balanced approach.</p>
     <a href="{{ site.baseurl }}/assets/images/targeting-the-lowest-hanging-fruit_image1.png" class="zoom-image">
-      <img src="{{ site.baseurl }}/assets/images/targeting-the-lowest-hanging-fruit_image1.png" alt="Three-step approach to cloud resource cleanup" class="blog-image">
+      <img src="{{ site.baseurl }}/assets/images/targeting-the-lowest-hanging-fruit_image1.png" alt="Three-step approach to cloud resource cleanup" class="blog-image" loading="lazy">
     </a>
     <p>You may start by restricting access to the asset to prevent usage while you prepare for archival or deletion. Move assets to a low-cost storage tier (e.g., S3 to Glacier) with a lifecycle policy for eventual deletion.</p>
     <p><strong>Delete assets only after confirming no impact. Always retain a restoration path for a reasonable period.</strong></p>
@@ -74,11 +74,11 @@ tags: [cloud, cost-optimisation, quick-wins]
     <h3>Example Lifecycle Policies</h3>
     <p>S3 bucket lifecycle policy:</p>
     <a href="{{ site.baseurl }}/assets/images/targeting-the-lowest-hanging-fruit_image2.png" class="zoom-image">
-      <img src="{{ site.baseurl }}/assets/images/targeting-the-lowest-hanging-fruit_image2.png" alt="S3 bucket lifecycle policy example" class="blog-image">
+      <img src="{{ site.baseurl }}/assets/images/targeting-the-lowest-hanging-fruit_image2.png" alt="S3 bucket lifecycle policy example" class="blog-image" loading="lazy">
     </a>
     <p>ECR lifecycle policy:</p>
     <a href="{{ site.baseurl }}/assets/images/targeting-the-lowest-hanging-fruit_image3.png" class="zoom-image">
-      <img src="{{ site.baseurl }}/assets/images/targeting-the-lowest-hanging-fruit_image3.png" alt="ECR lifecycle policy example" class="blog-image">
+      <img src="{{ site.baseurl }}/assets/images/targeting-the-lowest-hanging-fruit_image3.png" alt="ECR lifecycle policy example" class="blog-image" loading="lazy">
     </a>
 </section>
 
@@ -110,14 +110,14 @@ tags: [cloud, cost-optimisation, quick-wins]
       </li>
       <li>
         <p><strong>Schedule Regular Cleanups</strong></p>
-        <p>Set a biannual cadence for spring-cleaning. As you mature, automate proactive measures to reduce manual effort.</p>
+        <p>Set a biannual cadence for spring-cleaning. As you mature, automate proactive measures to reduce manual effort. If your organisation is exploring AI adoption, these same infrastructure hygiene practices are foundational. Our <a href="/services/ai-readiness-audit/">Agentic AI Readiness Audit</a> assesses Cloud infrastructure readiness as one of six key dimensions.</p>
       </li>
     </ul>
   </section>
 
   <section class="contact-cta animate-fade-in">
     <h2>Ready to Find Your Quick Wins?</h2>
-    <p>Start your optimisation journey today. We can help you identify and execute high-impact improvements in your cloud infrastructure.</p>
+    <p>Start your optimisation journey today. We can help you identify and execute high-impact improvements in your Cloud infrastructure. See how cost optimisation fits into a broader <a href="/services/">strategic assessment</a>, or read more about <a href="/blog/is-your-cloud-strategy-working/">evaluating whether your Cloud strategy is working</a>.</p>
     <a href="/contact/" class="button-primary">Get Started</a>
   </section>
 </section>
