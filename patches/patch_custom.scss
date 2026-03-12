@@ -1,0 +1,289 @@
+diff --git a/_sass/impacteng-theme/_custom.scss b/_sass/impacteng-theme/_custom.scss
+index 88c1ffe..f8e0143 100644
+--- a/_sass/impacteng-theme/_custom.scss
++++ b/_sass/impacteng-theme/_custom.scss
+@@ -1,154 +1,165 @@
+-.default-page {
+-
+-    h1,
+-    h2 {
+-        color: #2c3e50;
+-    }
++// Variables
++$primary-color: #007acc;
++$primary-color-dark: #005fa3;
++$body-color: #2c3e50;
++$light-background: #eaf4fc;
++$white: #fff;
++$black: #000;
++$spacing-unit: 1rem;
++$border-radius: 5px;
++$box-shadow: 0 2px 6px rgba($black, 0.05);
+ 
+-    .lead {
+-        font-size: 1.2rem;
+-        margin-bottom: 2rem;
+-    }
++// Layout map
++$layout: (
++  'box-shadow': $box-shadow
++);
+ 
+-    .page-section {
+-        margin: 2rem 0;
+-        background: #fff;
+-        padding: 2rem;
+-        border-radius: 8px;
+-        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+-    }
++// Animations
++@keyframes fadeIn {
++  from {
++    opacity: 0;
++    transform: translateY(10px);
++  }
+ 
+-    .section-list {
+-        list-style: none;
+-        padding-left: 0;
++  to {
++    opacity: 1;
++    transform: translateY(0);
++  }
++}
+ 
+-        li {
+-            margin-bottom: 1rem;
+-        }
+-    }
++@keyframes slideUp {
++  from {
++    opacity: 0;
++    transform: translateY(40px);
++  }
+ 
+-    .contact-cta {
+-        text-align: center;
+-        margin-top: 4rem;
+-        padding: 2rem;
+-        background: #eaf4fc;
+-        border-radius: 8px;
+-    }
++  to {
++    opacity: 1;
++    transform: translateY(0);
++  }
++}
+ 
+-    .button-primary {
+-        display: inline-block;
+-        background-color: #007acc;
+-        color: #fff;
+-        padding: 0.75rem 1.5rem;
+-        text-decoration: none;
+-        border-radius: 5px;
+-
+-        &:hover {
+-            background-color: #005fa3;
+-        }
+-    }
++// Default page styles
++.default-page {
++  h1,
++  h2 {
++    color: $body-color;
++  }
+ 
+-/* Form Styling */
+-.contact-form {
+-    max-width: 600px;
+-    margin: 0 auto;
++  .lead {
++    font-size: 1.2rem;
++    margin-bottom: 2rem;
+   }
+-  
+-  .contact-form .form-group {
+-    display: flex;
+-    flex-direction: column;
+-    margin-bottom: 20px;
++
++  .page-section {
++    margin: 2rem 0;
++    background: $white;
++    padding: 2rem;
++    border-radius: 8px;
++    box-shadow: $box-shadow;
+   }
+-  
+-  .contact-form label {
+-    font-weight: bold;
+-    margin-bottom: 5px;
++
++  .section-list {
++    list-style: none;
++    padding-left: 0;
++
++    li {
++      margin-bottom: 1rem;
++    }
+   }
+-  
+-  .contact-form input,
+-  .contact-form textarea {
+-    width: 100%;
+-    padding: 10px;
+-    border: 1px solid #ccc;
+-    border-radius: 4px;
+-    font-size: 1rem;
++
++  .contact-cta {
++    text-align: center;
++    margin-top: 4rem;
++    padding: 2rem;
++    background: $light-background;
++    border-radius: 8px;
+   }
+-  
+-  .contact-form button {
++
++  .button-primary {
+     display: inline-block;
+-    padding: 10px 20px;
+-    background-color: #007BFF;
+-    color: #fff;
+-    border: none;
+-    border-radius: 4px;
+-    font-size: 1rem;
+-    cursor: pointer;
+-    transition: background-color 0.3s ease;
+-  }
+-  
+-  .contact-form button:hover {
+-    background-color: #0056b3;
++    background-color: $primary-color;
++    color: $white;
++    padding: 0.75rem 1.5rem;
++    text-decoration: none;
++    border-radius: $border-radius;
++
++    &:hover {
++      background-color: $primary-color-dark;
++    }
+   }
+-}
+ 
+-/* Animations */
+-@keyframes fadeIn {
+-    from {
+-        opacity: 0;
+-        transform: translateY(10px);
++  /* Form Styling */
++  .contact-form {
++    max-width: 600px;
++    margin: 0 auto;
++
++    .form-group {
++      display: flex;
++      flex-direction: column;
++      margin-bottom: 20px;
+     }
+ 
+-    to {
+-        opacity: 1;
+-        transform: translateY(0);
++    label {
++      font-weight: bold;
++      margin-bottom: 5px;
+     }
+-}
+ 
+-@keyframes slideUp {
+-    from {
+-        opacity: 0;
+-        transform: translateY(40px);
++    input,
++    textarea {
++      width: 100%;
++      padding: 10px;
++      border: 1px solid #ccc;
++      border-radius: 4px;
++      font-size: 1rem;
+     }
+ 
+-    to {
+-        opacity: 1;
+-        transform: translateY(0);
++    button {
++      display: inline-block;
++      padding: 10px 20px;
++      background-color: #007BFF;
++      color: $white;
++      border: none;
++      border-radius: 4px;
++      font-size: 1rem;
++      cursor: pointer;
++      transition: background-color 0.3s ease;
++
++      &:hover {
++        background-color: #0056b3;
++      }
+     }
++  }
+ }
+ 
++// Animations
+ .animate-fade-in {
+-    animation: fadeIn 1s ease forwards;
+-    opacity: 0;
++  animation: fadeIn 1s ease forwards;
++  opacity: 0;
+ }
+ 
+ .animate-slide-up {
+-    animation: slideUp 1s ease forwards;
+-    opacity: 0;
++  animation: slideUp 1s ease forwards;
++  opacity: 0;
+ }
+ 
+ .delay-1 {
+-    animation-delay: 0.3s;
++  animation-delay: 0.3s;
+ }
+ 
+ .delay-2 {
+-    animation-delay: 0.6s;
++  animation-delay: 0.6s;
+ }
+ 
++// Post section
+ .post-section {
+   margin: 1rem 0;
+-  background: #fff;
++  background: $white;
+   padding: 1rem;
+   border-radius: 4px;
+-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
++  box-shadow: $box-shadow;
+ }
+ 
+-// Variables
+-$spacing-unit: 1rem;
+-$border-radius: 5px;
+-$layout: (
+-  'box-shadow': 0 2px 6px rgba(0, 0, 0, 0.05)
+-);
+-
+ // Blog image styling
+ .blog-image {
+   max-width: 100%;
+@@ -176,7 +187,7 @@ $layout: (
+   left: 0;
+   width: 100%;
+   height: 100%;
+-  background: rgba(0, 0, 0, 0.9);
++  background: rgba($black, 0.9);
+   z-index: 999;
+   cursor: zoom-out;
+ 
