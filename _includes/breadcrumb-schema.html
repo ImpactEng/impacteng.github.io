@@ -1,5 +1,11 @@
 {%- unless page.url == "/" -%}
-{%- assign crumb_parts = page.url | split: "/" | compact -%}
+{%- assign url_parts = page.url | split: "/" -%}
+{%- assign crumb_parts = "" | split: "" -%}
+{%- for part in url_parts -%}
+  {%- if part != "" -%}
+    {%- assign crumb_parts = crumb_parts | push: part -%}
+  {%- endif -%}
+{%- endfor -%}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",

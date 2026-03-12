@@ -1,0 +1,40 @@
+name: Validate Schema
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+
+jobs:
+  validate-breadcrumb-schema:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.2'
+        bundler-cache: true
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+    
+    - name: Build Jekyll site
+      run: |
+        bundle install
+        bundle exec jekyll build
+    
+    - name: Validate breadcrumb schema
+      run: python3 scripts/validate_breadcrumb_schema.py
+    
+    - name: Check internal links and images
+      run: |
+        bundle exec htmlproofer ./_site \
+          --checks "Links,Images,Scripts" \
+          --allow-hash-href \
+          --disable-external
