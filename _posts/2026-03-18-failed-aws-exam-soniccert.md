@@ -62,7 +62,8 @@ tags: [build-in-public, AWS, certification, hackathon, Amazon Bedrock, multi-age
     <p>I plan to keep working on it. It's not where it needs to be yet. The voice layer is still on the list: I haven't given up on Nova Sonic, I've just parked it until the SDK is actually usable. Session persistence works but it's JSON-based and won't scale if this ever becomes something more than a personal tool. There are product decisions I haven't made yet.</p>
     <p>But it already does the thing I built it to do. It has helped me see where my knowledge has actual gaps. That's worth something on its own.</p>
     <p>No promises on timeline. But I'm not putting it down.</p>
-    <p>If you want to see the hackathon submission, it's at <a href="https://devpost.com/software/update_later">devpost.com/software/update_later</a>. I created the project intending to rename it before submission. I did everything except that. Support confirmed it can't be changed. Fitting, really.</p>
+    <p>If you want to see the hackathon submission, it's at <a href="https://devpost.com/software/update_later">devpost.com/software/update_later</a>.</p>
+    <blockquote>I created the project intending to rename it before submission. I did everything except that. Support confirmed it can't be changed. Fitting, really.</blockquote>
   </section>
 
   <section class="contact-cta animate-fade-in">
