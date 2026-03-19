@@ -5,6 +5,9 @@ on:
     - cron: '0 6 * * 1'  # Every Monday at 6am UTC
   workflow_dispatch:       # Allow manual trigger
 
+permissions:
+  repository-advisories: write
+
 jobs:
   scan:
     runs-on: ubuntu-latest
@@ -21,23 +24,26 @@ jobs:
           exit-code: '1'
         continue-on-error: true
 
-      - name: Create issue on failure
+      - name: Create private security advisory on failure
         if: failure()
         uses: actions/github-script@v8
         with:
           script: |
-            const existing = await github.rest.issues.listForRepo({
+            const existing = await github.rest.securityAdvisories.listRepositoryAdvisories({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              labels: 'vulnerability',
-              state: 'open'
+              state: 'draft'
             });
-            if (existing.data.length === 0) {
-              await github.rest.issues.create({
+            const alreadyOpen = existing.data.some(a =>
+              a.summary.includes('ruby:3.3-slim')
+            );
+            if (!alreadyOpen) {
+              await github.rest.securityAdvisories.createRepositoryAdvisory({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
-                title: 'Fixable CVEs detected in Docker base image',
-                body: `Trivy found critical or high severity vulnerabilities with available fixes in \`ruby:3.3-slim\`.\n\nUpdate the base image or rebuild to pull the latest patched layers.\n\n[View workflow run](${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId})`,
-                labels: ['vulnerability']
+                summary: 'Fixable CVEs detected in Docker base image (ruby:3.3-slim)',
+                description: `Trivy found critical or high severity vulnerabilities with available fixes in \`ruby:3.3-slim\`.\n\nRebuild the Docker image to pull the latest patched layers, then re-run the scan to confirm it is resolved.\n\n[View workflow run](${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId})`,
+                severity: 'high',
+                vulnerabilities: []
               });
             }
