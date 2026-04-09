@@ -196,19 +196,13 @@ tags: [AI, devops, sre, cloud, platform-engineering, LLMs]
     <ul class="section-list">
       <li><strong>Data Privacy:</strong> Don’t send sensitive code or production data to public LLMs.</li>
       <li><strong>Cost Control:</strong> Use APIs judiciously; local open-source LLMs for sensitive tasks.</li>
-      <li><strong>Limitations:</strong>
-        <ul>
-          <li><em>Hallucinations</em>: LLMs sometimes “invent” configs or facts.</li>
-          <li><em>Bias</em>: May inherit biases present in training data.</li>
-          <li><em>When not to use</em>: If automation accuracy is business-critical and mistakes are costly.</li>
-        </ul>
-      </li>
+      <li><strong>Limitations:</strong> Hallucinations (LLMs may invent configs or facts), potential bias from training data, and unsuitable where automation accuracy is business-critical.</li>
     </ul>
   </section>
 
-  <section class=”page-section animate-slide-up”>
-    <h2><i class=”fas fa-forward”></i> Where to From Here</h2>
-    <p>Understanding AI fundamentals is the first step. The next is knowing whether your organisation's Cloud and DevOps foundations are ready to support AI agents in production. Our <a href=”/services/ai-readiness-audit/”>Agentic AI Readiness Audit</a> evaluates exactly that, scoring your infrastructure, data pipelines, governance, and team capability across six dimensions.</p>
-    <p>For a broader look at how we help engineering teams build AI-ready foundations, see our <a href=”/services/”>full list of services</a>. You may also find our case study on <a href=”/blog/orchestrating-devops-dominance/”>turning a $2.3M DevOps investment into $7.4M value</a> a useful example of what mature Cloud and DevOps practice looks like in an Australian enterprise.</p>
+  <section class="page-section animate-slide-up">
+    <h2><i class="fas fa-forward"></i> Where to From Here</h2>
+    <p>Understanding AI fundamentals is the first step. The next is knowing whether your organisation's Cloud and DevOps foundations are ready to support AI agents in production. Our <a href="/services/ai-readiness-audit/">Agentic AI Readiness Audit</a> evaluates exactly that, scoring your infrastructure, data pipelines, governance, and team capability across six dimensions.</p>
+    <p>For a broader look at how we help engineering teams build AI-ready foundations, see our <a href="/services/">full list of services</a>. You may also find our case study on <a href="/blog/orchestrating-devops-dominance/">turning a $2.3M DevOps investment into $7.4M value</a> a useful example of what mature Cloud and DevOps practice looks like in an Australian enterprise.</p>
   </section>
 </section>
