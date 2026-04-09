@@ -16,10 +16,10 @@ tags: [cloud, strategy, assessment]
   <section class="page-section animate-slide-up">
     <h2><i class="fas fa-tasks"></i> The Assessment in 5 Simple Steps</h2>
     <ul class="section-list">
-      <li><strong>Clarify Objectives:</strong> Pinpoint what your business needs from the cloud—reduced costs, faster delivery, or robust scalability.</li>
+      <li><strong>Clarify Objectives:</strong> Pinpoint what your business needs from the cloud: reduced costs, faster delivery, or robust scalability.</li>
       <li><strong>Assess the Present:</strong> Examine your current cloud setup. Review architecture, workflows, team expertise, spending, and security. Tools like <a href="https://aws.amazon.com/architecture/well-architected/">AWS Well-Architected</a> can streamline this.</li>
       <li><strong>Measure Up:</strong> Benchmark your department against industry standards. Are you leading or lagging in automation, resilience, or cost control?</li>
-      <li><strong>Identify Weaknesses:</strong> Highlight gaps—perhaps unused cloud features, inefficient processes, or skill shortages holding you back.</li>
+      <li><strong>Identify Weaknesses:</strong> Highlight gaps: unused cloud features, inefficient processes, or skill shortages holding you back.</li>
       <li><strong>Plan Ahead:</strong> Craft a roadmap with short-term fixes (e.g., cost optimisation) and long-term ambitions (e.g., adopting AI or serverless tech).</li>
     </ul>
   </section>
@@ -38,12 +38,11 @@ tags: [cloud, strategy, assessment]
   <section class="page-section animate-slide-up">
     <h2><i class="fas fa-lightbulb"></i> Why It's Essential</h2>
     <p>In a nutshell, a strategic assessment transforms your Cloud Engineering department into a business powerhouse. It aligns technology with strategy, uncovers hidden potential, and keeps you adaptable.</p>
-    <p>If your roadmap includes AI adoption, your Cloud strategy assessment should also consider AI readiness. Our <a href="/services/ai-readiness-audit/">Agentic AI Readiness Audit</a> evaluates your Cloud infrastructure, DevOps maturity, and data quality across six weighted dimensions to determine whether your foundations are ready for AI agents in production.</p>
   </section>
 
   <section class="contact-cta animate-fade-in">
     <h2>Ready to Evaluate Your Cloud Strategy?</h2>
-    <p>Want to maximise your Cloud investment? Start with an assessment. Explore our full range of <a href="/services/">assessment and enablement services</a>, or get in touch directly.</p>
+    <p>Start with an assessment. It's the most direct way to know where you actually stand.</p>
     <a href="/contact/" class="button-primary">Get Started</a>
   </section>
 </section>
