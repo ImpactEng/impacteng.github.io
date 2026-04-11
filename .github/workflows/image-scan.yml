@@ -4,9 +4,6 @@ on:
   schedule:
     - cron: '0 6 * * 1'  # Every Monday at 6am UTC
   workflow_dispatch:       # Allow manual trigger
-  push:
-    branches: [main]
-    paths: ['Dockerfile']  # Only scan when the base image changes
 
 permissions:
   repository-advisories: write
