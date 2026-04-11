@@ -5,9 +5,6 @@ on:
     - cron: '0 6 * * 1'  # Every Monday at 6am UTC
   workflow_dispatch:       # Allow manual trigger
 
-permissions:
-  repository-advisories: write
-
 jobs:
   scan:
     runs-on: ubuntu-latest
