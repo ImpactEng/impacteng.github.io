@@ -40,7 +40,7 @@ permalink: /about/
   <section id="founder" class="page-section animate-slide-up">
     <h2><i class="fas fa-user-tie"></i> Meet the Founder</h2>
     <img src="/assets/images/nitin-sharma.jpg" alt="Nitin Sharma" class="founder-photo">
-    <h3>Nitin Sharma &mdash; Founder &amp; Principal Consultant</h3>
+    <h3>Nitin Sharma, Founder and Principal Consultant</h3>
     <p>Nitin Sharma spent six years in engineering leadership at Australia Post, most recently as Cloud Product Engineering Manager running a developer platform for 650+ engineers. The team migrated 500 developers off legacy tooling onto GitLab, drove internal NPS from -61 to 52+, and turned $2.3M in annual Cloud spend into $7.4M in demonstrable platform value. The environments were regulated: PCI and ISM compliance were requirements, not options.</p>
     <p>Before Australia Post, he built the Ansible-based CI/CD framework adopted across a 200-person engineering business unit at REA Group.</p>
     <p>He has spoken at DevOps Talks Conference Melbourne in 2022 and GitLab Connect APAC in 2021 on platform transformation and DevSecOps practice in large-scale organisations.</p>
@@ -63,7 +63,7 @@ permalink: /about/
       <li><i class="fas fa-code-branch"></i> <a href="https://devpost.com/ns408" target="_blank" rel="noopener noreferrer">Hackathon submissions on Devpost</a></li>
     </ul>
 
-    <p><i class="fas fa-code"></i> <em>I build, run, and maintain this website.</em></p>
+    <p><small>This site is designed, built, and maintained by Nitin Sharma.</small></p>
   </section>
 
   <section class="contact-cta animate-fade-in">

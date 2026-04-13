@@ -101,7 +101,7 @@ faqs:
     <p>Fixed price. No surprises. Scoped to your organisation size.</p>
     <div class="pricing-table">
 
-      <div class="pricing-card">
+      <div class="pricing-card" id="snapshot">
         <div class="pricing-card__header">
           <h3>Readiness Snapshot</h3>
         </div>
