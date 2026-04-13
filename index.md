@@ -31,11 +31,12 @@ permalink: /
     <div class="featured-service-card">
       <div class="featured-service-card__content">
         <h3>Know exactly where you stand before you invest.</h3>
-        <p>A fixed-price assessment across Cloud infrastructure, DevOps maturity, data quality, team capability, governance, and strategic alignment. You get a scored report, a 90-day roadmap, and a board-ready executive summary.</p>
+        <p>A fixed-price assessment across Cloud Infrastructure, DevOps Maturity, Data Quality, Team Capability, Governance, and Strategic Alignment. You get a scored report, a 90-day roadmap, and a board-ready executive summary.</p>
         <p>2 weeks. Fixed price. From <strong>AUD $2,500</strong>.</p>
       </div>
       <div class="featured-service-card__cta">
         <a href="/services/ai-readiness-audit/" class="button-primary">Get an AI Readiness Audit</a>
+        <p style="margin-top: 0.75rem; font-size: 0.9rem;">Not ready to book? <a href="/tools/ai-readiness/">Take the free self-assessment.</a></p>
       </div>
     </div>
   </section>

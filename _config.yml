@@ -35,6 +35,7 @@ header_pages:
   - index.md
   - about.md
   - services.md
+  - tools.md
   - blog.md
   - contact.md
 

@@ -19,7 +19,7 @@ faqs:
 <section class="default-page">
   <header class="hero animate-fade-in">
     <h1>Is Your Organisation Ready to Run AI Agents?</h1>
-    <p class="lead">Before you invest in AI agents, know exactly where you stand. A fixed-price audit across Cloud infrastructure, DevOps maturity, data quality, team capability, governance, and strategic alignment.</p>
+    <p class="lead">Before you invest in AI agents, know exactly where you stand. A fixed-price audit across Cloud Infrastructure, DevOps Maturity, Data Quality, Team Capability, Governance, and Strategic Alignment.</p>
   </header>
 
   <section class="page-section animate-slide-up">
@@ -51,7 +51,7 @@ faqs:
       <li><strong>Governance &amp; Responsible AI (15%):</strong> Data access policy, human-in-the-loop controls, audit logging, drift detection, and regulatory awareness.</li>
       <li><strong>Strategic Alignment &amp; Use Case Prioritisation (10%):</strong> Defined use cases, business-value prioritisation, ROI estimates, board endorsement, and milestone timelines.</li>
     </ul>
-    <p style="margin-top: 1.5rem;"><strong>Want to see how your organisation scores?</strong></p>
+    <p style="margin-top: 1.5rem;"><strong>Want to see how your organisation scores?</strong> Start with the free <a href="/tools/ai-readiness/">AI Readiness Assessment</a> to get an instant picture across all six dimensions, or book a conversation to go deeper.</p>
     <a href="{{ site.booking_url }}" class="button-primary" target="_blank" rel="noopener">Book a Conversation</a>
   </section>
 
