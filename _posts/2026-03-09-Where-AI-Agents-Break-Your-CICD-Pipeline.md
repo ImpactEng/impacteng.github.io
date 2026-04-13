@@ -78,6 +78,6 @@ tags: [AI, devops, ci-cd, agentic-ai, Cloud]
 
   <section class="contact-cta animate-fade-in">
     <h2>Ready to Assess Your Pipeline?</h2>
-    <p>Our Agentic AI Readiness Audit evaluates your CI/CD, Cloud infrastructure, and DevOps maturity across six dimensions. <a href="/contact/">Get in touch</a> to find out where you stand.</p>
+    <p>Our Agentic AI Readiness Audit evaluates your CI/CD, Cloud Infrastructure, and DevOps Maturity across six dimensions. <a href="/contact/">Get in touch</a> to find out where you stand.</p>
   </section>
 </section>

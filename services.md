@@ -17,7 +17,7 @@ permalink: /services/
     <div class="featured-service-card">
       <div class="featured-service-card__content">
         <h3>Agentic AI Readiness Audit</h3>
-        <p>A fixed-price assessment across Cloud infrastructure, DevOps maturity, data quality, team capability, governance, and strategic alignment. You receive a scored report, a 90-day roadmap, and a board-ready executive summary.</p>
+        <p>A fixed-price assessment across Cloud Infrastructure, DevOps Maturity, Data Quality, Team Capability, Governance, and Strategic Alignment. You receive a scored report, a 90-day roadmap, and a board-ready executive summary.</p>
         <p><strong>80% of AI projects fail.</strong> Is your organisation set up to be in the 20%?</p>
         <p>From <strong>AUD $2,500</strong>.</p>
       </div>
