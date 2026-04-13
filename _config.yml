@@ -8,6 +8,7 @@ baseurl: "" # Set to "/repository-name" if hosted in a subdirectory
 url: "https://impacteng.com.au"
 email: hi@impacteng.com.au
 booking_url: "https://calendar.app.google/RgJtyQVimhpUgbTE7"
+formspree_endpoint: "https://formspree.io/f/mwvakbkv"
 #twitter_username: impactengx
 #github_username: impacteng
 linkedin_username: impactengx
@@ -62,7 +63,6 @@ exclude:
   - patches/
   - .github/
   - README.md
-  - readme.md
   - .gitignore
   - AGENTS.md
   - .clinerules
