@@ -93,6 +93,7 @@ permalink: /tools/ai-readiness/
 .chart-container {
   max-width: 460px;
   margin: 2rem auto;
+  overflow: visible;
 }
 .dimension-breakdown {
   list-style: none;
@@ -597,8 +598,8 @@ permalink: /tools/ai-readiness/
   var MAX_SCORE = 120;
   var DIMENSIONS = [
     { name: 'Cloud Infrastructure', questions: ['q1','q2','q3','q4'] },
-    { name: 'Data Quality and Pipelines', questions: ['q5','q6','q7','q8'] },
-    { name: 'DevOps and MLOps',     questions: ['q9','q10','q11','q12'] },
+    { name: 'Data Quality & Pipelines', questions: ['q5','q6','q7','q8'] },
+    { name: 'DevOps & MLOps',          questions: ['q9','q10','q11','q12'] },
     { name: 'Team Capability',      questions: ['q13','q14','q15','q16'] },
     { name: 'Governance',           questions: ['q17','q18','q19','q20'] },
     { name: 'Strategic Alignment',  questions: ['q21','q22','q23','q24'] }
