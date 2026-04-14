@@ -139,6 +139,7 @@ permalink: /tools/ai-readiness/
 </style>
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<script src="https://www.google.com/recaptcha/api.js?render={{ site.recaptcha_site_key }}"></script>
 
 <section class="default-page">
   <header class="hero animate-fade-in">
@@ -560,8 +561,11 @@ permalink: /tools/ai-readiness/
         <label for="resp-org">Organisation <span style="font-weight:normal;color:#888">(optional)</span></label>
         <input type="text" id="resp-org" name="org" placeholder="Company name">
       </div>
-      <p class="form-error" id="form-error">Please answer all 24 questions before submitting.</p>
-      <button type="submit" class="button-primary" style="margin-top:1rem">See my results</button>
+      <p class="form-error" id="form-error"></p>
+      <div style="display:flex;gap:1rem;align-items:center;margin-top:1rem;flex-wrap:wrap;">
+        <button type="submit" class="button-primary">See my results</button>
+        <button type="button" id="reset-btn" style="background:none;border:1px solid #aaa;border-radius:5px;padding:0.75rem 1.5rem;cursor:pointer;color:#555;font-size:1rem;">Reset</button>
+      </div>
     </section>
 
   </form>
@@ -602,6 +606,41 @@ permalink: /tools/ai-readiness/
 
   var formspreeEndpoint = "{{ site.formspree_endpoint }}";
   var radarChart = null;
+  var STORAGE_KEY = 'ai-readiness-draft';
+
+  function saveState() {
+    var state = {};
+    for (var i = 1; i <= 24; i++) {
+      var checked = document.querySelector('input[name="q' + i + '"]:checked');
+      if (checked) state['q' + i] = checked.value;
+    }
+    try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); } catch (e) {}
+  }
+
+  function restoreState() {
+    try {
+      var saved = localStorage.getItem(STORAGE_KEY);
+      if (!saved) return;
+      var state = JSON.parse(saved);
+      Object.keys(state).forEach(function (name) {
+        var input = document.querySelector('input[name="' + name + '"][value="' + state[name] + '"]');
+        if (input) input.checked = true;
+      });
+    } catch (e) {}
+  }
+
+  restoreState();
+
+  document.getElementById('assessment-form').addEventListener('change', function (e) {
+    if (e.target.type === 'radio') saveState();
+  });
+
+  document.getElementById('reset-btn').addEventListener('click', function () {
+    try { localStorage.removeItem(STORAGE_KEY); } catch (e) {}
+    document.getElementById('assessment-form').reset();
+    document.getElementById('form-error').style.display = 'none';
+    document.getElementById('results').style.display = 'none';
+  });
 
   document.getElementById('assessment-form').addEventListener('submit', function (e) {
     e.preventDefault();
@@ -609,12 +648,12 @@ permalink: /tools/ai-readiness/
     var errorEl = document.getElementById('form-error');
 
     // Validate all 24 questions answered
-    var allAnswered = true;
+    var unanswered = [];
     for (var i = 1; i <= 24; i++) {
-      var answered = !!form.querySelector('input[name="q' + i + '"]:checked');
-      if (!answered) { allAnswered = false; break; }
+      if (!form.querySelector('input[name="q' + i + '"]:checked')) unanswered.push(i);
     }
-    if (!allAnswered) {
+    if (unanswered.length > 0) {
+      errorEl.textContent = 'Questions ' + unanswered.join(', ') + ' are not yet answered.';
       errorEl.style.display = 'block';
       errorEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
       return;
@@ -724,11 +763,17 @@ permalink: /tools/ai-readiness/
       DIMENSIONS.forEach(function (dim, i) {
         payload[dim.name.toLowerCase().replace(/[\s]+/g, '_') + '_pct'] = dimPcts[i];
       });
-      fetch(formspreeEndpoint, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
-        body: JSON.stringify(payload)
-      }).catch(function () {});
+      var siteKey = "{{ site.recaptcha_site_key }}";
+      grecaptcha.ready(function () {
+        grecaptcha.execute(siteKey, { action: 'submit' }).then(function (token) {
+          payload['g-recaptcha-response'] = token;
+          fetch(formspreeEndpoint, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+            body: JSON.stringify(payload)
+          }).catch(function () {});
+        });
+      });
     }
   });
 }());
