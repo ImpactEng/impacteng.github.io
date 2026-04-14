@@ -31,7 +31,7 @@ permalink: /
     <div class="featured-service-card">
       <div class="featured-service-card__content">
         <h3>Know exactly where you stand before you invest.</h3>
-        <p>A fixed-price assessment across Cloud Infrastructure, DevOps Maturity, Data Quality, Team Capability, Governance, and Strategic Alignment. You get a scored report, a 90-day roadmap, and a board-ready executive summary.</p>
+        <p>A fixed-price assessment across six dimensions: Cloud Infrastructure, DevOps and MLOps, Data Quality and Pipelines, Team Capability, Governance, and Strategic Alignment. You get a scored report, a 90-day roadmap, and a board-ready executive summary.</p>
         <p>2 weeks. Fixed price. From <strong>AUD $2,500</strong>.</p>
       </div>
       <div class="featured-service-card__cta">

@@ -155,7 +155,7 @@ permalink: /tools/ai-readiness/
 
     <!-- Dimension 1 -->
     <section class="page-section animate-slide-up delay-1">
-      <h2>1. Cloud Infrastructure Readiness</h2>
+      <h2>1. Cloud Infrastructure</h2>
       <p>Can your cloud environment support AI agent workloads reliably and cost-effectively?</p>
 
       <div class="likert-item">
@@ -221,7 +221,7 @@ permalink: /tools/ai-readiness/
 
     <!-- Dimension 2 -->
     <section class="page-section animate-slide-up delay-2">
-      <h2>2. Data Quality and Pipeline Maturity</h2>
+      <h2>2. Data Quality and Pipelines</h2>
       <p>Is your data accessible, trustworthy, and governed well enough to power AI agents?</p>
 
       <div class="likert-item">
@@ -287,7 +287,7 @@ permalink: /tools/ai-readiness/
 
     <!-- Dimension 3 -->
     <section class="page-section animate-slide-up delay-3">
-      <h2>3. DevOps and MLOps Practices</h2>
+      <h2>3. DevOps and MLOps</h2>
       <p>Can your team deploy AI model changes safely and frequently?</p>
 
       <div class="likert-item">
@@ -353,7 +353,7 @@ permalink: /tools/ai-readiness/
 
     <!-- Dimension 4 -->
     <section class="page-section animate-slide-up">
-      <h2>4. Team and Organisational Capability</h2>
+      <h2>4. Team Capability</h2>
       <p>Does your team have the skills, ownership, and leadership literacy to run AI agents in production?</p>
 
       <div class="likert-item">
@@ -419,7 +419,7 @@ permalink: /tools/ai-readiness/
 
     <!-- Dimension 5 -->
     <section class="page-section animate-slide-up">
-      <h2>5. Governance and Responsible AI</h2>
+      <h2>5. Governance</h2>
       <p>Are you managing the risks of AI agents systematically?</p>
 
       <div class="likert-item">
@@ -485,7 +485,7 @@ permalink: /tools/ai-readiness/
 
     <!-- Dimension 6 -->
     <section class="page-section animate-slide-up">
-      <h2>6. Strategic Alignment and Use Case Prioritisation</h2>
+      <h2>6. Strategic Alignment</h2>
       <p>Is there a clear, prioritised AI plan connected to business outcomes?</p>
 
       <div class="likert-item">
@@ -597,7 +597,7 @@ permalink: /tools/ai-readiness/
   var MAX_SCORE = 120;
   var DIMENSIONS = [
     { name: 'Cloud Infrastructure', questions: ['q1','q2','q3','q4'] },
-    { name: 'Data and Pipelines',   questions: ['q5','q6','q7','q8'] },
+    { name: 'Data Quality and Pipelines', questions: ['q5','q6','q7','q8'] },
     { name: 'DevOps and MLOps',     questions: ['q9','q10','q11','q12'] },
     { name: 'Team Capability',      questions: ['q13','q14','q15','q16'] },
     { name: 'Governance',           questions: ['q17','q18','q19','q20'] },

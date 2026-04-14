@@ -19,7 +19,7 @@ faqs:
 <section class="default-page">
   <header class="hero animate-fade-in">
     <h1>Is Your Organisation Ready to Run AI Agents?</h1>
-    <p class="lead">Before you invest in AI agents, know exactly where you stand. A fixed-price audit across Cloud Infrastructure, DevOps Maturity, Data Quality, Team Capability, Governance, and Strategic Alignment.</p>
+    <p class="lead">Before you invest in AI agents, know exactly where you stand. A fixed-price audit across six dimensions: Cloud Infrastructure, DevOps and MLOps, Data Quality and Pipelines, Team Capability, Governance, and Strategic Alignment.</p>
   </header>
 
   <section class="page-section animate-slide-up">
@@ -44,12 +44,12 @@ faqs:
     <h2><i class="fas fa-clipboard-list"></i> What We Assess</h2>
     <p>We evaluate your organisation across six weighted dimensions that determine whether AI agents can safely and reliably operate in your environment.</p>
     <ul class="section-list">
-      <li><strong>Cloud Infrastructure Readiness (20%):</strong> Scalability, observability, cost controls, security posture, and reliability patterns.</li>
-      <li><strong>Data Quality &amp; Pipeline Maturity (20%):</strong> Accessibility, quality monitoring, pipeline reliability, governance, and PII controls.</li>
-      <li><strong>DevOps &amp; MLOps Practices (20%):</strong> CI/CD automation, deployment frequency, model versioning, incident response, and test coverage.</li>
-      <li><strong>Team &amp; Organisational Capability (15%):</strong> AI/ML experience, named ownership, capacity allocation, leadership literacy, and cross-functional alignment.</li>
-      <li><strong>Governance &amp; Responsible AI (15%):</strong> Data access policy, human-in-the-loop controls, audit logging, drift detection, and regulatory awareness.</li>
-      <li><strong>Strategic Alignment &amp; Use Case Prioritisation (10%):</strong> Defined use cases, business-value prioritisation, ROI estimates, board endorsement, and milestone timelines.</li>
+      <li><strong>Cloud Infrastructure (20%):</strong> Scalability, observability, cost controls, security posture, and reliability patterns.</li>
+      <li><strong>Data Quality and Pipelines (20%):</strong> Accessibility, quality monitoring, pipeline reliability, governance, and PII controls.</li>
+      <li><strong>DevOps and MLOps (20%):</strong> CI/CD automation, deployment frequency, model versioning, incident response, and test coverage.</li>
+      <li><strong>Team Capability (15%):</strong> AI/ML experience, named ownership, capacity allocation, leadership literacy, and cross-functional alignment.</li>
+      <li><strong>Governance (15%):</strong> Data access policy, human-in-the-loop controls, audit logging, drift detection, and regulatory awareness.</li>
+      <li><strong>Strategic Alignment (10%):</strong> Defined use cases, business-value prioritisation, ROI estimates, board endorsement, and milestone timelines.</li>
     </ul>
     <p style="margin-top: 1.5rem;"><strong>Want to see how your organisation scores?</strong> Start with the free <a href="/tools/ai-readiness/">AI Readiness Assessment</a> to get an instant picture across all six dimensions, or book a conversation to go deeper.</p>
     <a href="{{ site.booking_url }}" class="button-primary" target="_blank" rel="noopener">Book a Conversation</a>
