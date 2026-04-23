@@ -97,6 +97,16 @@ tags: [devops, roi, case-study, australia]
     <p>This period significantly shaped my own career trajectory, reinforcing the power of a hybrid approach to IT and DevOps, the absolute necessity of being able to narrate value in a language the business understands, and the art of orchestration to achieve significant impact.</p>
     <p>If you are evaluating whether your own Cloud and DevOps foundations are ready for the next step, our <a href="/services/ai-readiness-audit/">Agentic AI Readiness Audit</a> scores your organisation across six dimensions. For a broader view of how to extract value from your Cloud investment, see our post on <a href="/blog/unlocking-business-value-with-cloud-engineering/">building business value with Cloud Engineering</a>.</p>
   </section>
+
+  <section class="page-section animate-fade-in">
+    <h2><i class="fas fa-pen"></i> Author's Notes and Clarifications</h2>
+    <p>In the spirit of transparency, a couple of clarifications on specifics mentioned earlier in the post, surfaced through subsequent conversations:</p>
+    <ul>
+      <li><strong>On the ~600 user count:</strong> The platform supported approximately 600 users. The majority were active software engineers building Java microservices and event-driven applications, with the rest spanning systems engineering, security operations, application security, architecture, business analysis, and so on. Roughly 80 to 90 percent were active engineers or alike using the pipelines day to day.</li>
+      <li><strong>On the productivity savings estimate:</strong> The 5 to 10 hours per week savings applies to active engineers or alike (~80 to 90 percent of the ~600 users), not to all 600 platform users uniformly.</li>
+      <li><strong>On the containerisation footprint:</strong> Approximately 200 applications were containerised. Workloads progressed from bare EC2 to Dockerised EC2 to ECS / Fargate. EKS was used for self-hosted developer tooling such as GitLab, not for production application workloads.</li>
+    </ul>
+  </section>
     <section class="contact-cta animate-fade-in">
     <h2>Ready to Transform?</h2>
     <p>See how our <a href="/services/">assessment and enablement services</a> can help you achieve similar results.</p>
