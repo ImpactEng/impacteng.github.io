@@ -145,7 +145,12 @@ permalink: /tools/ai-readiness/
 <section class="default-page">
   <header class="hero animate-fade-in">
     <h1>AI Readiness Assessment</h1>
-    <p class="lead">24 statements across the six dimensions that predict whether AI agents succeed or stall in production. Rate your organisation honestly. Takes 5 to 8 minutes. Results and radar chart appear immediately.</p>
+    <p class="lead">Rate your organisation across the six dimensions that predict whether AI agents succeed or stall in production. Honest answers give you the best signal.</p>
+    <ul class="hero-meta">
+      <li><i class="fas fa-list-check"></i> 24 statements</li>
+      <li><i class="fas fa-clock"></i> 5 to 8 minutes</li>
+      <li><i class="fas fa-chart-pie"></i> Instant radar chart</li>
+    </ul>
   </header>
 
   <section class="page-section animate-slide-up">
