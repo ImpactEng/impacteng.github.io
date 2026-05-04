@@ -13,8 +13,14 @@ permalink: /tools/
 
   <section class="page-section animate-slide-up">
     <h2><i class="fas fa-clipboard-check"></i> <a href="/tools/ai-readiness/">AI Readiness Assessment</a></h2>
-    <p>24 statements across the six dimensions that predict whether AI agents succeed or stall in production. Rate your organisation, get an instant score and radar chart. Takes 5 to 8 minutes. No waiting.</p>
+    <p><strong>For organisations and engineering leaders.</strong> 24 statements across the six dimensions that predict whether AI agents succeed or stall in production. Rate your organisation, get an instant score and radar chart. Takes 5 to 8 minutes. No waiting.</p>
     <a href="/tools/ai-readiness/" class="button-primary">Start the Assessment</a>
+  </section>
+
+  <section class="page-section animate-slide-up delay-1">
+    <h2><i class="fas fa-user-check"></i> <a href="/tools/ai-fluency-check/">AI Fluency Check</a></h2>
+    <p><strong>For individual engineers.</strong> A personal AI-knowledge diagnostic for DevOps, SRE, and Cloud roles. 27 questions across 11 dimensions; pick the 5-minute Quick set or the 12-minute Deep set. Runs entirely in your browser. No data leaves your machine, no email required.</p>
+    <a href="/tools/ai-fluency-check/" class="button-primary">Start the Fluency Check</a>
   </section>
 
   <section class="contact-cta animate-fade-in">

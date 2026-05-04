@@ -10,6 +10,32 @@
         margin-bottom: 2rem;
     }
 
+    .hero-meta {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.5rem;
+        list-style: none;
+        padding: 0;
+        margin: 1rem 0 0;
+
+        li {
+            background: #eef3ff;
+            color: #1f5ad9;
+            font-size: 0.85rem;
+            padding: 0.35rem 0.9rem;
+            border-radius: 999px;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+
+            i {
+                font-size: 0.8rem;
+            }
+        }
+    }
+
     .page-section {
         margin: 2rem 0;
         background: #fff;
