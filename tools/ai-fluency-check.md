@@ -1748,7 +1748,7 @@ maybeOfferResume();
     "url": "https://www.linkedin.com/in/ns408/"
   },
   "license": "https://opensource.org/licenses/MIT",
-  "codeRepository": "https://github.com/ImpactEng/ai-fluency-check",
+  "sameAs": "https://github.com/ImpactEng/ai-fluency-check",
   "inLanguage": "en-AU",
   "keywords": "AI fluency, AI literacy, DevOps, SRE, Cloud Engineering, Platform Engineering, RAG, MCP, LLMOps, agentic AI"
 }
