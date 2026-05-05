@@ -3,6 +3,7 @@ layout: default
 title: "AI Fluency Check"
 description: "A personal AI-knowledge diagnostic for DevOps, SRE, and Cloud engineers. 11 dimensions, runs entirely in your browser. No data leaves your machine."
 permalink: /tools/ai-fluency-check/
+image: /assets/images/ai-fluency-check-og-v1.png
 ---
 
 <style>
@@ -1719,3 +1720,36 @@ track('page_loaded', {});
 maybeOfferResume();
 </script>
 {% endraw %}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "AI Fluency Check",
+  "description": "A free, browser-based AI knowledge self-assessment for DevOps, SRE, and Cloud engineers. 11 dimensions across foundations and production AI engineering. Two modes: Quick (5 minutes) and Deep (12 minutes).",
+  "url": "https://impacteng.com.au/tools/ai-fluency-check/",
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "Web",
+  "softwareVersion": "0.1",
+  "isAccessibleForFree": true,
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "AUD"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Impact Eng",
+    "url": "https://impacteng.com.au/"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Nitin Sharma",
+    "url": "https://www.linkedin.com/in/ns408/"
+  },
+  "license": "https://opensource.org/licenses/MIT",
+  "codeRepository": "https://github.com/ImpactEng/ai-fluency-check",
+  "inLanguage": "en-AU",
+  "keywords": "AI fluency, AI literacy, DevOps, SRE, Cloud Engineering, Platform Engineering, RAG, MCP, LLMOps, agentic AI"
+}
+</script>
