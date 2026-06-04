@@ -7,10 +7,7 @@ docker compose run --rm jekyll bundle exec jekyll build
 echo "Validating breadcrumb schema..."
 python3 scripts/validate_breadcrumb_schema.py
 
-echo "Checking internal links and images..."
-docker compose run --rm jekyll bundle exec htmlproofer ./_site \
-  --checks "Links,Images,Scripts" \
-  --allow-hash-href \
-  --disable-external
+echo "Checking links and images (matches CI, includes external links)..."
+docker compose run --rm jekyll bash scripts/htmlproofer.sh
 
 echo "Tests passed!"
