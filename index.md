@@ -1,71 +1,42 @@
 ---
 layout: default
 title: Home
-description: We help engineering teams build the Cloud and DevOps foundations AI agents actually need. Fixed-price assessments. Embedded execution. Real outcomes.
+description: Cloud, DevOps and Platform Engineering consulting in Melbourne. I help engineering teams build the foundations delivery depends on, from CI/CD to AI readiness.
 permalink: /
 ---
 
 <section class="default-page">
   <header class="hero animate-fade-in">
-    <h1>Build the foundation your AI agents actually need.</h1>
-    <p class="lead">ImpactEng embeds with your team to fix Cloud infrastructure, DevOps pipelines, and organisational readiness, so your AI initiatives ship in production instead of stalling in a proof of concept.</p>
+    <h1>The foundation your delivery runs on.</h1>
+    <p class="lead">I am Nitin Sharma. I help engineering teams build Cloud and Platform foundations that hold up, and put in the practices that keep them that way. AI agents are the newest pressure on that foundation, not the only one.</p>
   </header>
 
-  <section class="page-section animate-slide-up">
-    <div class="stat-highlight">
-      <i class="fas fa-times-circle"></i>
-      <p><strong>80% of AI projects fail</strong> to reach production (RAND Corporation)</p>
-    </div>
-    <div class="stat-highlight">
-      <i class="fas fa-database"></i>
-      <p><strong>60% will be abandoned</strong> without AI-ready data (Gartner)</p>
-    </div>
-    <div class="stat-highlight">
-      <i class="fas fa-chart-line"></i>
-      <p><strong>Only 1% of organisations</strong> are truly AI-mature (Gartner)</p>
-    </div>
-  </section>
-
   <section class="page-section animate-slide-up delay-1">
-    <h2><i class="fas fa-robot"></i> Agentic AI Readiness Audit</h2>
-    <div class="featured-service-card">
-      <div class="featured-service-card__content">
-        <h3>Know exactly where you stand before you invest.</h3>
-        <p>A fixed-price assessment across six dimensions: Cloud Infrastructure, DevOps and MLOps, Data Quality and Pipelines, Team Capability, Governance, and Strategic Alignment. You get a scored report, a 90-day roadmap, and a board-ready executive summary.</p>
-        <p>2 weeks. Fixed price. From <strong>AUD $2,500</strong>.</p>
-      </div>
-      <div class="featured-service-card__cta">
-        <a href="/services/ai-readiness-audit/" class="button-primary">Get an AI Readiness Audit</a>
-        <p style="margin-top: 0.75rem; font-size: 0.9rem;">Not ready to book? <a href="/tools/ai-readiness/">Take the free self-assessment.</a></p>
-      </div>
-    </div>
-  </section>
-
-  <section class="page-section animate-slide-up delay-2">
-    <h2><i class="fas fa-hands-helping"></i> How We Work</h2>
-    <p>Two modes. One goal: initiatives that ship.</p>
+    <h2><i class="fas fa-hands-helping"></i> How I Work</h2>
+    <p>Two modes, depending on whether you already know what needs fixing.</p>
 
     <h3><i class="fas fa-lightbulb"></i> Assess &amp; Enable</h3>
-    <p>We partner with your team to assess your current state, identify gaps, and define a clear path forward.</p>
+    <p>I work with your team to assess where things actually stand, find the gaps, and set out what to do about them in what order.</p>
 
     <h3><i class="fas fa-rocket"></i> Embed &amp; Execute</h3>
-    <p>If you already have a direction, we embed with your team to accelerate delivery and improve culture from the inside.</p>
+    <p>If you already have a direction, I embed with your team to accelerate delivery and improve culture from the inside.</p>
     <a href="/services/" class="button-primary">Learn More</a>
   </section>
 
-  <section class="page-section animate-slide-up">
-    <h2><i class="fas fa-shield-alt"></i> Why ImpactEng</h2>
-    <ul class="section-list">
-      <li><i class="fas fa-wrench"></i> <strong>Technical depth, not just strategy.</strong> We have shipped production Cloud and DevOps systems. Our recommendations come from real engineering experience, not slide decks.</li>
-      <li><i class="fas fa-dollar-sign"></i> <strong>Fixed-price products.</strong> No T&amp;M surprises. Our audit products have a fixed scope, fixed fee, and defined deliverables. You know what you are buying.</li>
-      <li><i class="fas fa-handshake"></i> <strong>Embedded, not parachuted.</strong> We work side by side with your team, improving delivery and culture at the same time. Not handing you a report and leaving.</li>
-      <li><i class="fas fa-map-marker-alt"></i> <strong>Australian-focused.</strong> We understand the Australian market, regulatory environment, and the specific pressures on technology teams here.</li>
-    </ul>
+  <section class="page-section animate-slide-up delay-2">
+    <h2><i class="fas fa-clipboard-check"></i> Start Here</h2>
+    <p>Two free diagnostics. Both run in your browser, both give you a result immediately, and neither needs a sales call first.</p>
+
+    <h3><i class="fas fa-building"></i> <a href="/tools/ai-readiness/">AI Readiness Assessment</a></h3>
+    <p>For organisations. 24 statements across the six dimensions that decide whether AI agents succeed or stall in production. Rate your organisation, get a score and a radar chart. 5 to 8 minutes.</p>
+
+    <h3><i class="fas fa-user-check"></i> <a href="/tools/ai-fluency-check/">AI Fluency Check</a></h3>
+    <p>For individual engineers. A personal AI-knowledge diagnostic for DevOps, SRE, and Cloud roles. 27 questions across 11 dimensions. Nothing leaves your machine.</p>
   </section>
 
   <section class="contact-cta animate-fade-in">
     <h2>Ready to know where you stand?</h2>
-    <p>Whether you want a fast, honest assessment or a team that embeds and executes, we can help. Start with a conversation.</p>
+    <p>Whether you want an honest read on where things are, or someone to embed and do the work, start with a conversation.</p>
     <a href="/contact/" class="button-primary">Get in Touch</a>
   </section>
 </section>

@@ -5,15 +5,15 @@ description: "A fixed-price assessment of your Cloud, DevOps, team, and governan
 permalink: /services/ai-readiness-audit/
 faqs:
   - question: "What does the assessment actually involve?"
-    answer: "Four phases over 14 days. We request read-only access to your Cloud environment, conduct 3 to 8 structured interviews with engineering and leadership stakeholders, review key artefacts (CI/CD configs, architecture diagrams, incident logs), and score your organisation across six weighted dimensions. You receive a scored report, a 90-day roadmap, and a board-ready executive summary."
+    answer: "Four phases over 14 days. I request read-only access to your Cloud environment, run 3 to 8 structured interviews with engineering and leadership stakeholders, review key artefacts (CI/CD configs, architecture diagrams, incident logs), and score your organisation across six weighted dimensions. You receive a scored report, a 90-day roadmap, and a board-ready executive summary."
   - question: "How is this different from what a large consultancy would do?"
-    answer: "We are technical and embedded, not strategic and parachuted. Our assessors have hands-on Cloud and DevOps experience. The engagement is fixed price with a defined scope and timeline. There is no 6-week discovery phase before the real work starts."
+    answer: "This is technical and embedded, not high-level and parachuted. The person assessing your environment is the person who has run these systems in production. The engagement is fixed price with a defined scope and timeline. There is no 6-week discovery phase before the real work starts."
   - question: "What is the Readiness Snapshot and who is it for?"
-    answer: "The Readiness Snapshot is a lightweight, 3-hour scoping session that gives you a written heatmap across all six dimensions within 48 hours. It is designed for organisations that want a fast, low-commitment read on their AI readiness before committing to a full audit."
+    answer: "The Readiness Snapshot is a lightweight, 3-hour scoping session that gives you a written heatmap across all six dimensions within 48 hours. It is designed for organisations that want a fast, low-commitment read on their AI readiness before committing to a full audit. It also includes a tier recommendation if a deeper engagement makes sense."
   - question: "What happens after the audit?"
-    answer: "Three options: your team self-executes the roadmap, we embed to close the highest-priority gaps, or we lead your first production AI agent deployment. Book a follow-on engagement within 30 days and part of your audit fee is credited toward the next engagement."
+    answer: "Three options: your team self-executes the roadmap, I embed to close the highest-priority gaps, or I lead your first production AI agent deployment. Book a follow-on engagement within 30 days and part of your audit fee is credited toward the next engagement."
   - question: "Do you have case studies or examples?"
-    answer: "This is a newly launched product, so we do not have published case studies yet. We have the assessment framework grounded in BCG, McKinsey, and Deloitte AI research. We are happy to walk you through the framework and scoring methodology on a no-cost 30-minute call."
+    answer: "This is a newly launched product, so there are no published case studies yet. What there is: an assessment framework built on 18+ years running infrastructure and platforms in production, including a developer platform for 650+ users in PCI and ISM regulated environments. I am happy to walk you through the framework and scoring methodology on a no-cost 30-minute call."
 ---
 
 <section class="default-page">
@@ -24,25 +24,17 @@ faqs:
 
   <section class="page-section animate-slide-up">
     <h2><i class="fas fa-exclamation-triangle"></i> The Problem</h2>
-    <p>Most AI projects do not make it to production. Those that do often fail to deliver value. The reason is rarely the AI model itself.</p>
-    <div class="stat-highlight">
-      <i class="fas fa-times-circle"></i>
-      <p><strong>80% of AI projects fail</strong> to reach production (RAND Corporation)</p>
-    </div>
-    <div class="stat-highlight">
-      <i class="fas fa-database"></i>
-      <p><strong>60% of AI initiatives will be abandoned</strong> due to poor data readiness (Gartner)</p>
-    </div>
+    <p>Most AI pilots do not stall because the model was wrong. They stall on the infrastructure underneath: identity, pipeline security, and tooling at scale. Teams attempt AI adoption on foundations that were never built for it.</p>
     <div class="stat-highlight">
       <i class="fas fa-chart-line"></i>
-      <p><strong>Only 1% of organisations</strong> are truly AI-mature (Gartner)</p>
+      <p><strong>AI is an amplifier.</strong> The <a href="https://dora.dev/dora-report-2025/" target="_blank" rel="noopener noreferrer">2025 DORA report</a> found it magnifies strength in high performing teams and dysfunction in struggling ones. Adding AI tooling without changing the process underneath does not improve delivery performance, and can degrade it.</p>
     </div>
-    <p>The gap between AI ambition and AI delivery is a readiness problem. It is measurable, and it is fixable. For a deeper look at what this means for engineering teams, read our guide to <a href="/blog/demystifying-ai-for-devops-sre-and-cloud-engineers/">AI fundamentals for DevOps and Cloud engineers</a>.</p>
+    <p>Which means readiness is not a nice to have. It decides which direction the amplifier runs. Ownership is usually the first thing to fragment: security sets the standards, platform engineering owns the paved road, delivery teams own their workloads, and readiness is decided at the seams between those three. For a deeper look at what this means for engineering teams, read my guide to <a href="/blog/demystifying-ai-for-devops-sre-and-cloud-engineers/">AI fundamentals for DevOps and Cloud engineers</a>.</p>
   </section>
 
   <section class="page-section animate-slide-up delay-1">
-    <h2><i class="fas fa-clipboard-list"></i> What We Assess</h2>
-    <p>We evaluate your organisation across six weighted dimensions that determine whether AI agents can safely and reliably operate in your environment.</p>
+    <h2><i class="fas fa-clipboard-list"></i> What I Assess</h2>
+    <p>I evaluate your organisation across six weighted dimensions that determine whether AI agents can safely and reliably operate in your environment.</p>
     <ul class="section-list">
       <li><strong>Cloud Infrastructure (20%):</strong> Scalability, observability, cost controls, security posture, and reliability patterns.</li>
       <li><strong>Data Quality and Pipelines (20%):</strong> Accessibility, quality monitoring, pipeline reliability, governance, and PII controls.</li>
@@ -157,9 +149,9 @@ faqs:
     <h2><i class="fas fa-arrow-right"></i> What Comes Next</h2>
     <p>After the audit, you have three options depending on your team's capacity and goals.</p>
     <ul class="section-list">
-      <li><strong>Self-execute:</strong> Take the roadmap and run with it. Your team has the report, the priorities, and the 90-day plan. We are available for questions.</li>
-      <li><strong>Embed to close gaps:</strong> We embed with your team to remediate the highest-priority gaps identified in the audit. Typical engagements run 4 to 12 weeks.</li>
-      <li><strong>AI Delivery Accelerator:</strong> We lead your first production AI agent deployment end to end, building on the foundations established during remediation.</li>
+      <li><strong>Self-execute:</strong> Take the roadmap and run with it. Your team has the report, the priorities, and the 90-day plan. I am available for questions.</li>
+      <li><strong>Embed to close gaps:</strong> I embed with your team to remediate the highest-priority gaps identified in the audit. Typical engagements run 4 to 12 weeks.</li>
+      <li><strong>AI Delivery Accelerator:</strong> I lead your first production AI agent deployment end to end, building on the foundations established during remediation.</li>
     </ul>
   </section>
 
@@ -168,11 +160,11 @@ faqs:
     <div class="faq-list">
       <details>
         <summary>What does the assessment actually involve?</summary>
-        <p>Four phases over 14 days. We request read-only access to your Cloud environment, conduct 3 to 8 structured interviews with engineering and leadership stakeholders, review key artefacts (CI/CD configs, architecture diagrams, incident logs), and score your organisation across six weighted dimensions. You receive a scored report, a 90-day roadmap, and a board-ready executive summary.</p>
+        <p>Four phases over 14 days. I request read-only access to your Cloud environment, run 3 to 8 structured interviews with engineering and leadership stakeholders, review key artefacts (CI/CD configs, architecture diagrams, incident logs), and score your organisation across six weighted dimensions. You receive a scored report, a 90-day roadmap, and a board-ready executive summary.</p>
       </details>
       <details>
         <summary>How is this different from what a large consultancy would do?</summary>
-        <p>We are technical and embedded, not strategic and parachuted. Our assessors have hands-on Cloud and DevOps experience. The engagement is fixed price with a defined scope and timeline. There is no 6-week discovery phase before the real work starts.</p>
+        <p>This is technical and embedded, not high-level and parachuted. The person assessing your environment is the person who has run these systems in production. The engagement is fixed price with a defined scope and timeline. There is no 6-week discovery phase before the real work starts.</p>
       </details>
       <details>
         <summary>What is the Readiness Snapshot and who is it for?</summary>
@@ -180,11 +172,11 @@ faqs:
       </details>
       <details>
         <summary>What happens after the audit?</summary>
-        <p>Three options: your team self-executes the roadmap, we embed to close the highest-priority gaps, or we lead your first production AI agent deployment. Book a follow-on engagement within 30 days and part of your audit fee is credited toward the next engagement.</p>
+        <p>Three options: your team self-executes the roadmap, I embed to close the highest-priority gaps, or I lead your first production AI agent deployment. Book a follow-on engagement within 30 days and part of your audit fee is credited toward the next engagement.</p>
       </details>
       <details>
         <summary>Do you have case studies or examples?</summary>
-        <p>This is a newly launched product, so we do not have published case studies yet. What we do have is the assessment framework, grounded in the BCG, McKinsey, and Deloitte AI research your board is reading. We are happy to walk you through the framework and scoring methodology on a no-cost 30-minute call.</p>
+        <p>This is a newly launched product, so there are no published case studies yet. What there is: an assessment framework built on 18+ years running infrastructure and platforms in production, including a developer platform for 650+ users in PCI and ISM regulated environments. I am happy to walk you through the framework and scoring methodology on a no-cost 30-minute call.</p>
       </details>
     </div>
   </section>
@@ -193,6 +185,6 @@ faqs:
     <h2>Ready to Find Out Where You Stand?</h2>
     <p>Book a no-obligation 30-minute call to discuss your organisation's AI readiness and which tier is right for you.</p>
     <a href="{{ site.booking_url }}" class="button-primary" target="_blank" rel="noopener">Book a Discovery Call</a>
-    <p style="margin-top: 1rem; font-size: 0.9rem;">Or email us directly at <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+    <p style="margin-top: 1rem; font-size: 0.9rem;">Or email me directly at <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
   </section>
 </section>
