@@ -71,9 +71,11 @@ Dependabot also raises weekly PRs for gem and GitHub Actions updates automatical
 
 ## Deployment
 
-Push to the `gh-pages` branch. GitHub Pages builds and deploys the site automatically.
+GitHub Pages serves the site from the **`main`** branch. Merging to `main`
+deploys to impacteng.com.au immediately, so land changes through a pull request
+rather than pushing to `main` directly.
 
-The CI workflow runs on every push to `main` and `gh-pages` and on all pull requests targeting `main`.
+The CI workflow runs on every push to `main` and on all pull requests targeting `main`.
 
 ## Project Structure
 

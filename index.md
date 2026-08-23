@@ -11,7 +11,7 @@ permalink: /
     <p class="lead">I am Nitin Sharma. I help engineering teams build Cloud and Platform foundations that hold up, and put in the practices that keep them that way. AI agents are the newest pressure on that foundation, not the only one.</p>
   </header>
 
-  <section class="page-section animate-slide-up delay-2">
+  <section class="page-section animate-slide-up delay-1">
     <h2><i class="fas fa-hands-helping"></i> How I Work</h2>
     <p>Two modes, depending on whether you already know what needs fixing.</p>
 
@@ -23,7 +23,7 @@ permalink: /
     <a href="/services/" class="button-primary">Learn More</a>
   </section>
 
-  <section class="page-section animate-slide-up">
+  <section class="page-section animate-slide-up delay-2">
     <h2><i class="fas fa-clipboard-check"></i> Start Here</h2>
     <p>Two free diagnostics. Both run in your browser, both give you a result immediately, and neither needs a sales call first.</p>
 
