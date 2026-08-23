@@ -593,7 +593,7 @@ permalink: /tools/ai-readiness/
 
     <div class="cta-band" id="score-cta"></div>
 
-    <a href="{{ site.booking_url }}" class="button-primary" target="_blank" rel="noopener">Book a Free 45-Minute Diagnostic Conversation</a>
+    <a href="{{ site.booking_url }}" class="button-primary" target="_blank" rel="noopener">Book a Free 30-Minute Diagnostic Conversation</a>
   </section>
 
 </section>

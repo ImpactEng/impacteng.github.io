@@ -7,13 +7,13 @@ faqs:
   - question: "What does the assessment actually involve?"
     answer: "Four phases over 14 days. I request read-only access to your Cloud environment, run 3 to 8 structured interviews with engineering and leadership stakeholders, review key artefacts (CI/CD configs, architecture diagrams, incident logs), and score your organisation across six weighted dimensions. You receive a scored report, a 90-day roadmap, and a board-ready executive summary."
   - question: "How is this different from what a large consultancy would do?"
-    answer: "This is technical and embedded, not high-level only and parachuted. The person assessing your environment is the person who has run these systems in production. The engagement is fixed price with a defined scope and timeline. There is no 6-week discovery phase before the real work starts."
+    answer: "This is technical and embedded, not high-level and parachuted. The person assessing your environment is the person who has run these systems in production. The engagement is fixed price with a defined scope and timeline. There is no 6-week discovery phase before the real work starts."
   - question: "What is the Readiness Snapshot and who is it for?"
-    answer: "The Readiness Snapshot is a lightweight, 3-hour scoping session that gives you a written heatmap across all six dimensions within 48 hours. It is designed for organisations that want a fast, low-commitment read on their AI readiness before committing to a full audit."
+    answer: "The Readiness Snapshot is a lightweight, 3-hour scoping session that gives you a written heatmap across all six dimensions within 48 hours. It is designed for organisations that want a fast, low-commitment read on their AI readiness before committing to a full audit. It also includes a tier recommendation if a deeper engagement makes sense."
   - question: "What happens after the audit?"
     answer: "Three options: your team self-executes the roadmap, I embed to close the highest-priority gaps, or I lead your first production AI agent deployment. Book a follow-on engagement within 30 days and part of your audit fee is credited toward the next engagement."
   - question: "Do you have case studies or examples?"
-    answer: "This is a newly launched product, so there are no published case studies yet. What there is: an assessment framework built on 18+ years running infrastructure and platforms in production. I am happy to walk you through the framework and scoring methodology on a no-cost 30-minute call."
+    answer: "This is a newly launched product, so there are no published case studies yet. What there is: an assessment framework built on 18+ years running infrastructure and platforms in production, including a developer platform for 650+ users in PCI and ISM regulated environments. I am happy to walk you through the framework and scoring methodology on a no-cost 30-minute call."
 ---
 
 <section class="default-page">
@@ -164,7 +164,7 @@ faqs:
       </details>
       <details>
         <summary>How is this different from what a large consultancy would do?</summary>
-        <p>This is technical and embedded, not strategic and parachuted. The person assessing your environment is the person who has run these systems in production. The engagement is fixed price with a defined scope and timeline. There is no 6-week discovery phase before the real work starts.</p>
+        <p>This is technical and embedded, not high-level and parachuted. The person assessing your environment is the person who has run these systems in production. The engagement is fixed price with a defined scope and timeline. There is no 6-week discovery phase before the real work starts.</p>
       </details>
       <details>
         <summary>What is the Readiness Snapshot and who is it for?</summary>

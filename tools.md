@@ -26,6 +26,6 @@ permalink: /tools/
   <section class="contact-cta animate-fade-in">
     <h2>Want a deeper read?</h2>
     <p>The self-assessment tells you where to look. The full <a href="/services/ai-readiness-audit/">Agentic AI Readiness Audit</a> tells you exactly what is broken and how to fix it.</p>
-    <a href="{{ site.booking_url }}" class="button-primary" target="_blank" rel="noopener">Book a Free 45-Minute Conversation</a>
+    <a href="{{ site.booking_url }}" class="button-primary" target="_blank" rel="noopener">Book a Free 30-Minute Conversation</a>
   </section>
 </section>

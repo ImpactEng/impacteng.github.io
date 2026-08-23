@@ -7,7 +7,7 @@ permalink: /blog/
 
 <section class="default-page">
   <header class="hero animate-fade-in">
-    <h1>Our Blog</h1>
+    <h1>Blog</h1>
     <p class="lead">Insights on Cloud infrastructure, DevOps, AI readiness, and building engineering teams that ship.</p>
   </header>
 
@@ -27,7 +27,7 @@ permalink: /blog/
 
   <section class="contact-cta animate-fade-in">
     <h2>Want to talk about what you are working on?</h2>
-    <p>We are always happy to discuss Cloud, DevOps, and AI readiness challenges. No obligation.</p>
+    <p>I am always happy to discuss Cloud, DevOps, and AI readiness challenges. No obligation.</p>
     <a href="/contact/" class="button-primary">Get in Touch</a>
   </section>
 </section>

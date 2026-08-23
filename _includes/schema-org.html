@@ -6,7 +6,7 @@
   "name": "Impact Eng",
   "url": "{{ site.url }}",
   "email": "{{ site.email }}",
-  "description": "{{ site.description | escape }}",
+  "description": {{ site.description | jsonify }},
   "image": "{{ site.url }}/assets/images/og-image.jpg",
   "areaServed": {
     "@type": "Country",
@@ -19,7 +19,7 @@
   "founder": {
     "@type": "Person",
     "name": "Nitin Sharma",
-    "jobTitle": "Founder"
+    "jobTitle": "Founder and Principal"
   },
   "serviceType": ["Cloud Engineering", "DevOps Consulting", "AI Readiness Audit"],
   "knowsAbout": ["Cloud Infrastructure", "Cloud Architecture", "DevOps", "AI Readiness", "Platform Engineering", "Containers", "CI/CD", "Linux Systems"],
